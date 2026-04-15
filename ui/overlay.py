@@ -181,16 +181,19 @@ class OverlayManager:
         # we convert to strings for safe comparison with badge keys
         active_set = {str(s) for s in active_seats} if active_seats is not None else None
         
+        # Determine current hero seat (as string for ID matching)
+        current_hero_id = str(tracker.hero_seat) if tracker.hero_seat is not None else None
+        
         for seat_id, badge in self.badges.items():
             if seat_id == "hero":
                 continue
                 
-            is_hero_seat = hasattr(tracker, 'hero_seat') and seat_id == str(tracker.hero_seat)
+            is_hero_seat = (current_hero_id is not None and seat_id == current_hero_id)
             
             # Badge is only shown if it's NOT the hero's current seat AND it's in the confirmed active set
             should_show = False
             if is_hero_seat:
-                should_show = False # Always hide the hero's on-table badge (we have the lifetime one)
+                should_show = False # Hide the hero's on-table badge once detected
             elif active_set is None:
                 # If no set provided at all, default to showing (initial state)
                 should_show = True

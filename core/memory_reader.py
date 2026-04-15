@@ -151,6 +151,7 @@ class GameStateTracker:
         self.player_stacks = {} # seat -> current chips
         self.table_capacity = 6 # Default to 6-max
         self.confirmed_seated = set() # Authoritative list of players at the table
+        self.hero_seat = None
         self.reset_hand()
         self._processed_hand_ids = set()
         
@@ -235,8 +236,10 @@ class GameStateTracker:
                 if pid == 'CO_DEALER_SEAT':
                     self.dealer_seat = msg.get('seat')
                 else: # PLAY_TOUR_LEVEL_INFO
+                    # New tournament level often implies a fresh snapshot or table migration
                     self.bb_amount = msg.get('bblind', self.bb_amount)
                     self.sb_amount = msg.get('sblind', self.sb_amount)
+                    logging.info(f"GameStateTracker: Level Change detected. bb: {self.bb_amount}")
 
             elif pid == 'CO_OPTION_INFO':
                 self.bb_amount = msg.get('bblind', self.bb_amount)
@@ -301,21 +304,29 @@ class GameStateTracker:
                     if seat > 6 and self.table_capacity == 6:
                         self.table_capacity = 9
                 cards = [decode_card(c) for c in msg.get('card', [])]
-                if cards: self.hole_cards[seat] = cards
+                if cards:
+                    self.hole_cards[seat] = cards
+                    # In Ignition Tournaments, you only see PRIVATE hole cards for yourself pre-flop.
+                    # We can use this to reliably auto-detect the hero seat for statistics/hiding.
+                    if self.hand_phase in ["none", "preflop"] and self.hero_seat is None:
+                        logging.info(f"GameStateTracker: Auto-detected Hero at Seat {seat}")
+                        self.hero_seat = seat
             
             elif pid == 'CO_RESULT_INFO':
                 payouts = msg.get('account', [])
+                new_seated_set = set()
                 for i, amt in enumerate(payouts):
                     seat = i + 1
                     self.player_stacks[seat] = amt # Update stacks for next hand
                     if amt > 0:
                         self.winners.append({'seat': seat, 'chips': amt})
                         # If they possess chips, they are definitively seated
-                        self.confirmed_seated.add(seat)
-                    elif amt == 0 and seat in self.confirmed_seated and seat <= self.table_capacity:
-                        # Only remove from confirmed if they are within the table capacity
-                        # This prevents blacklisting future 7-8-9 seats in 6-max games
-                        self.confirmed_seated.remove(seat)
+                        new_seated_set.add(seat)
+                    # Note: We rely on the full array here. If a seat is 0, they aren't added to new_seated_set.
+                
+                # Snapshot refresh: treat CO_RESULT_INFO as authoritative for who remains
+                if new_seated_set:
+                    self.confirmed_seated = new_seated_set
                 
                 # Hand Finalization
                 if self.current_hand_id and self.current_hand_id not in self._processed_hand_ids:
@@ -350,6 +361,7 @@ class GameStateTracker:
             'table_capacity': self.table_capacity,
             'active_seats': list(self.active_seats),
             'confirmed_seated': list(self.confirmed_seated),
+            'hero_seat': self.hero_seat,
             'seats': {},
             'actions': self.actions,
             'board': self.board,

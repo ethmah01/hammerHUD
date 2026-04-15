@@ -52,6 +52,11 @@ def main():
             if tracker.process_hand_event(hand_data):
                 # Save to disk
                 hand_logger.log_hand(hand_data)
+                
+                # Update Hero seat if it was newly detected in this hand
+                if hand_data.get('hero_seat'):
+                    tracker.set_hero_seat(hand_data['hero_seat'])
+                
                 # Update UI visibility using the authoritative confirmed seated set
                 confirmed = hand_data.get('confirmed_seated', hand_data.get('active_seats', []))
                 overlay.update_session(tracker, active_seats=confirmed)
@@ -106,19 +111,16 @@ def main():
     status_timer.timeout.connect(update_status)
     status_timer.start(3000)  # Update status every 3 seconds
     
-    # Detect hero seat from the memory reader's game event
-    def detect_hero_from_events():
-        """Try to detect hero seat from the game protocol."""
-        if mem_reader and mem_reader.game_info.get('active_seats'):
-            # Hero seat detection is done via CO_SELECT_RES_V2 messages
-            # which only appear for OUR actions. For now, we'll use config.
-            hero = config.get("hero_seat", None)
-            if hero:
-                tracker.set_hero_seat(hero)
+    # Auto-detect hero seat from live events
+    def sync_hero_seat():
+        if mem_reader:
+            detected_hero = mem_reader.game_info.get('hero_seat')
+            if detected_hero:
+                tracker.set_hero_seat(detected_hero)
     
     hero_timer = QTimer()
-    hero_timer.timeout.connect(detect_hero_from_events)
-    hero_timer.start(5000)
+    hero_timer.timeout.connect(sync_hero_seat)
+    hero_timer.start(2000)
     
     settings = SettingsWindow(config, tracker, start_reader, overlay, hand_logger)
     settings.show()
