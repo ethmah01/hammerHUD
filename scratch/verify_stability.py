@@ -4,7 +4,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from core.memory_reader import GameStateTracker
 
-def test_activity_window():
+def test_authoritative_sync():
     tracker = GameStateTracker()
     
     # Mock MemoryReader to access game_info
@@ -14,59 +14,55 @@ def test_activity_window():
             self.reader = type('obj', (object,), {'find_ignition_pids': lambda: [123]})
         @property
         def game_info(self):
-            last_seen = self.state.last_seen_hand_id
-            counter = self.state.hand_counter
-            seated = [s for s, h in last_seen.items() if counter - h <= 1]
             return {
-                'active_seats': seated,
+                'active_seats': list(self.state.confirmed_seated),
                 'table_capacity': self.state.table_capacity
             }
             
     reader = MockReader(tracker)
-    # Everyone acts in Hand 0
-    tracker.current_hand_id = "HAND_0"
-    tracker.hand_phase = "preflop"
+    
+    print("--- Test 1: Initial Sync from Ante ---")
     tracker.process_messages([
-        {'pid': 'CO_BLIND_INFO', 'seat': 1},
-        {'pid': 'CO_BLIND_INFO', 'seat': 2},
-        {'pid': 'CO_SELECT_INFO', 'seat': 3},
-        {'pid': 'CO_RESULT_INFO', 'account': [100, 100, 100, 0, 0, 0, 0, 0, 0]}
+        {'pid': 'PLAY_TOUR_LEVEL_INFO'},
+        {'pid': 'TCO_ANTE_INFO_ALL', 'flag': [1, 1, 1, 0, 0, 0, 0, 0, 0], 'account': [100, 100, 100, 0, 0, 0, 0, 0, 0], 'ante': [5, 5, 5, 0, 0, 0, 0, 0, 0]}
     ])
-    
     info = reader.game_info
-    print(f"After Hand 0: {sorted(info['active_seats'])} (Expected [1, 2, 3])")
+    print(f"Seated after Ante: {sorted(info['active_seats'])} (Expected [1, 2, 3])")
     
-    # Start Hand 1
-    tracker.reset_hand()
-    tracker.current_hand_id = "HAND_1"
-    tracker.hand_phase = "preflop"
+    print("\n--- Test 2: Mid-hand stability (Heuristics removed) ---")
+    tracker.reset_hand() # New hand starts
+    # Some other player acts, but we don't have an Ante yet
     tracker.process_messages([
         {'pid': 'CO_BLIND_INFO', 'seat': 1},
         {'pid': 'CO_BLIND_INFO', 'seat': 3}
-        # Seat 2 hasn't acted yet
     ])
     info = reader.game_info
-    print(f"During Hand 1 (Seat 2 should stay visible): {sorted(info['active_seats'])} (Expected [1, 2, 3])")
+    # Seat 2 didn't act, but in the new architecture, they stay confirmed from the last Ante/Result
+    print(f"Seated during Hand 2: {sorted(info['active_seats'])} (Expected [1, 2, 3])")
     
-    # Hand 1 Ends: Seat 2 busted (0 chips)
+    print("\n--- Test 3: Instant Elimination in Results ---")
     tracker.process_messages([
-        {'pid': 'CO_RESULT_INFO', 'account': [100, 0, 100, 0, 0, 0, 0, 0, 0]}
+        {'pid': 'CO_RESULT_INFO', 'account': [150, 0, 150, 0, 0, 0, 0, 0, 0]}
     ])
-    
     info = reader.game_info
-    print(f"End of Hand 1 (Seat 2 should be gone INSTANTLY because chips=0): {sorted(info['active_seats'])} (Expected [1, 3])")
+    print(f"Seated after Seat 2 busts: {sorted(info['active_seats'])} (Expected [1, 3])")
     
-    # Start Hand 2
-    tracker.reset_hand()
-    info = reader.game_info
-    print(f"Start of Hand 2: {sorted(info['active_seats'])} (Expected [1, 3])")
-
-    # Test forced 9-max
+    print("\n--- Test 4: High-index Protection (6-max) ---")
+    # Tracker is in 6-max mode by default. CO_RESULT_INFO for 9-max indices (7-9) should NOT blacklist them.
+    # We already processed CO_RESULT_INFO with index 6,7,8 = 0.
+    # Now if we switch to 9-max and Seat 9 acts...
     tracker.process_messages([
         {'pid': 'CO_SELECT_INFO', 'seat': 9}
     ])
     info = reader.game_info
-    print(f"After Seat 9 acts: Capacity = {info['table_capacity']} (Expected 9)")
+    print(f"Capacity after Seat 9 actions: {info['table_capacity']} (Expected 9)")
+    # Seat 9 should be visible? NO, it wasn't in confirmed_seated yet (only Ante/Result update that)
+    # Actually, RESULT updates it too.
+    tracker.process_messages([
+        {'pid': 'CO_RESULT_INFO', 'account': [150, 0, 150, 0, 0, 0, 0, 0, 500]}
+    ])
+    info = reader.game_info
+    print(f"Seated after Seat 9 result: {sorted(info['active_seats'])} (Expected [1, 3, 9])")
 
 if __name__ == "__main__":
-    test_activity_window()
+    test_authoritative_sync()

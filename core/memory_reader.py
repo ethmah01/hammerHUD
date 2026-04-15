@@ -150,9 +150,7 @@ class GameStateTracker:
         self.dealer_seat = None
         self.player_stacks = {} # seat -> current chips
         self.table_capacity = 6 # Default to 6-max
-        self.seated_seats = set() 
-        self.last_seen_hand_id = {} # seat -> last hand_id where they were active
-        self.hand_counter = 0 # Incremental counter of finalized hands
+        self.confirmed_seated = set() # Authoritative list of players at the table
         self.reset_hand()
         self._processed_hand_ids = set()
         
@@ -214,11 +212,12 @@ class GameStateTracker:
                         self.table_capacity = new_capacity
 
                 self._hand_started_properly = True
+                new_seated_set = set()
                 for i, (acc, ante, active) in enumerate(zip(accounts, antes, flags)):
                     seat = i + 1
                     if active == 1:
                         self.active_seats.add(seat)
-                        self.last_seen_hand_id[seat] = self.hand_counter
+                        new_seated_set.add(seat)
                         self.player_stacks[seat] = acc
                         if ante > 0:
                             self.actions.append({
@@ -228,9 +227,9 @@ class GameStateTracker:
                                 'phase': 'blind'
                             })
                 
-                # Internal tracking update
-                if self.active_seats:
-                    self.seated_seats = self.active_seats.copy()
+                # Authoritative update from the tournament ante snapshot
+                if new_seated_set:
+                    self.confirmed_seated = new_seated_set
             
             elif pid in ['CO_DEALER_SEAT', 'PLAY_TOUR_LEVEL_INFO']:
                 if pid == 'CO_DEALER_SEAT':
@@ -255,8 +254,7 @@ class GameStateTracker:
                 seat = msg.get('seat')
                 if seat is not None:
                     self.active_seats.add(seat)
-                    # Don't add to seated_seats here to prevent mid-hand flickering
-                    # seated_seats should only be updated from 'full state' messages
+                    # We don't update confirmed_seated here; we rely on snapshots
                     btn = msg.get('btn', 0)
                     amt = msg.get('bet', 0)
                     self.actions.append({
@@ -272,10 +270,8 @@ class GameStateTracker:
                 seat = msg.get('seat')
                 if seat is not None:
                     self.active_seats.add(seat)
-                    self.last_seen_hand_id[seat] = self.hand_counter
                     if seat > 6 and self.table_capacity == 6:
                         self.table_capacity = 9
-                    # Don't add to seated_seats here
                     btn = msg.get('btn', 0)
                     amt = msg.get('bet', 0)
                     current_account = msg.get('account')
@@ -302,10 +298,8 @@ class GameStateTracker:
                 seat = msg.get('seat')
                 if seat is not None:
                     self.active_seats.add(seat)
-                    self.last_seen_hand_id[seat] = self.hand_counter
                     if seat > 6 and self.table_capacity == 6:
                         self.table_capacity = 9
-                # Don't add to seated_seats here
                 cards = [decode_card(c) for c in msg.get('card', [])]
                 if cards: self.hole_cards[seat] = cards
             
@@ -316,20 +310,17 @@ class GameStateTracker:
                     self.player_stacks[seat] = amt # Update stacks for next hand
                     if amt > 0:
                         self.winners.append({'seat': seat, 'chips': amt})
-                        if self.hand_phase != "waiting":
-                             # If they have chips at the end of the hand, they are active
-                             self.active_seats.add(seat)
-                             self.last_seen_hand_id[seat] = self.hand_counter
-                    elif amt == 0 and seat in self.last_seen_hand_id:
-                        # Explicitly mark as eliminated if they show 0 chips in results
-                        # Setting last_seen to a very old value ensures they are hidden immediately
-                        self.last_seen_hand_id[seat] = -100
+                        # If they possess chips, they are definitively seated
+                        self.confirmed_seated.add(seat)
+                    elif amt == 0 and seat in self.confirmed_seated and seat <= self.table_capacity:
+                        # Only remove from confirmed if they are within the table capacity
+                        # This prevents blacklisting future 7-8-9 seats in 6-max games
+                        self.confirmed_seated.remove(seat)
                 
                 # Hand Finalization
                 if self.current_hand_id and self.current_hand_id not in self._processed_hand_ids:
                     h = self._finalize_hand()
                     if h: 
-                        self.hand_counter += 1
                         new_hands.append(h)
 
             elif pid == 'PLAY_STAGE_END_REQ':
@@ -358,6 +349,7 @@ class GameStateTracker:
             'dealer_seat': self.dealer_seat,
             'table_capacity': self.table_capacity,
             'active_seats': list(self.active_seats),
+            'confirmed_seated': list(self.confirmed_seated),
             'seats': {},
             'actions': self.actions,
             'board': self.board,
@@ -399,15 +391,17 @@ class IgnitionMemoryReader(threading.Thread):
                         
                         # Handle Sequence Reset or PID change
                         if pid != self._active_pid:
-                            logging.info(f"mem_reader: PID changed ({self._active_pid} -> {pid}). Resetting sequence tracking.")
+                            logging.info(f"mem_reader: PID changed ({self._active_pid} -> {pid}). Resetting state.")
                             self._last_seq = -1
                             self._active_pid = pid
+                            self.state = GameStateTracker() # Full state reset
                         
                         # Detect sequence wrap-around/reset on same PID
                         max_seq = max((m.get('seq', 0) for m in msgs), default=-1)
                         if max_seq != -1 and max_seq < self._last_seq - 500:
-                            logging.info(f"mem_reader: Large sequence drop detected ({self._last_seq} -> {max_seq}). Assuming reset.")
+                            logging.info(f"mem_reader: Large sequence drop detected ({self._last_seq} -> {max_seq}). Resetting state.")
                             self._last_seq = -1
+                            self.state = GameStateTracker() # Full state reset
 
                         new_msgs = [m for m in msgs if m.get('seq', 0) > self._last_seq]
                         if new_msgs:
@@ -423,16 +417,11 @@ class IgnitionMemoryReader(threading.Thread):
     @property
     def game_info(self):
         pids = self.reader.find_ignition_pids()
-        # We consider a seat "seated" if it was seen in the current hand
-        # or in the hand directly preceding it (activity window of 2).
-        seated = [seat for seat, last_hand in self.state.last_seen_hand_id.items() 
-                  if self.state.hand_counter - last_hand <= 1]
-        
         return {
             'hand_id': self.state.current_hand_id,
             'phase': self.state.hand_phase,
             'hands_processed': len(self.state._processed_hand_ids),
-            'active_seats': seated,
+            'active_seats': list(self.state.confirmed_seated),
             'table_capacity': self.state.table_capacity,
             'pids_found': len(pids) if pids else 0
         }

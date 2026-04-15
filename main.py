@@ -52,9 +52,9 @@ def main():
             if tracker.process_hand_event(hand_data):
                 # Save to disk
                 hand_logger.log_hand(hand_data)
-                # Update UI with the active seats from the hand
-                active = set(hand_data.get('active_seats', []))
-                overlay.update_session(tracker, active_seats=active)
+                # Update UI visibility using the authoritative confirmed seated set
+                confirmed = hand_data.get('confirmed_seated', hand_data.get('active_seats', []))
+                overlay.update_session(tracker, active_seats=confirmed)
         except Exception as e:
             logging.error(f"Error in on_hand_completed: {e}\n{traceback.format_exc()}")
     
@@ -99,9 +99,8 @@ def main():
                 if hasattr(settings, 'size_combo'):
                     settings.size_combo.setCurrentText(f"{capacity}-Max")
             
-            # Periodically update session to hide eliminated players
-            active = set(info.get('active_seats', []))
-            overlay.update_session(tracker, active_seats=active)
+            # Sync table size, but don't force a full update_session here 
+            # as it will be driven by hand completion events or protocol snapshots.
 
     status_timer = QTimer()
     status_timer.timeout.connect(update_status)

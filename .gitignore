@@ -33,6 +33,9 @@ poker_hud_debug.log
 poker_hud_session.log
 hands/
 logs/
+data/*.json
+data/*.txt
+data/hand_histories/
 
 # IDEs
 .vscode/

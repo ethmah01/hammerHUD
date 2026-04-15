@@ -1,4 +1,5 @@
 import sys
+import logging
 from PyQt6.QtWidgets import QWidget, QFrame, QLabel, QVBoxLayout, QPushButton
 from PyQt6.QtCore import Qt
 
@@ -135,19 +136,28 @@ class OverlayManager:
         self.build_badges()
         
     def build_badges(self):
-        for b in list(self.badges.values()):
-            b.close()
-        self.badges.clear()
+        """Creates or updates player badges based on current table size."""
+        target_seats = {str(i) for i in range(1, self.table_size + 1)}
+        target_seats.add("hero") # Always keep the lifetime hero badge
         
-        for i in range(1, self.table_size + 1):
-            b = StatBadge(i, self.config, reset_callback=self.on_player_reset, title=f"Seat {i}")
-            self.badges[i] = b
-            b.show()
+        current_seats = set(self.badges.keys())
+        
+        # 1. Remove badges that are no longer part of the table layout
+        for seat_id in (current_seats - target_seats):
+            logging.debug(f"Overlay: Removing badge for seat {seat_id}")
+            if seat_id in self.badges:
+                self.badges[seat_id].close()
+                del self.badges[seat_id]
             
-        # Hero badge
-        hb = StatBadge("hero", self.config, title="Hero (Lifetime)")
-        self.badges["hero"] = hb
-        hb.show()
+        # 2. Add badges for new seats in the layout
+        for seat_id in (target_seats - current_seats):
+            logging.debug(f"Overlay: Adding badge for seat {seat_id}")
+            if seat_id == "hero":
+                b = StatBadge("hero", self.config, title="Hero (Lifetime)")
+            else:
+                b = StatBadge(seat_id, self.config, reset_callback=self.on_player_reset, title=f"Seat {seat_id}")
+            self.badges[seat_id] = b
+            b.show()
 
     def on_player_reset(self, seat_id):
         """Callback from StatBadge to reset a specific seat."""
@@ -167,34 +177,54 @@ class OverlayManager:
 
     def update_session(self, tracker, active_seats=None):
         # Determine which seats should be visible
-        # Only hide players if we have a confirmed list of who is active.
-        # This prevents flickering at the start of a hand.
-        active_set = active_seats if active_seats else getattr(tracker, 'seated_seats', set())
+        # active_seats is the set of 'confirmed_seated' from the memory reader
+        # we convert to strings for safe comparison with badge keys
+        active_set = {str(s) for s in active_seats} if active_seats is not None else None
         
-        for i in range(1, self.table_size + 1):
-            if i not in self.badges:
+        for seat_id, badge in self.badges.items():
+            if seat_id == "hero":
                 continue
                 
-            is_hero = hasattr(tracker, 'hero_seat') and i == tracker.hero_seat
-            # Only hide if it's the hero, or if we have a non-empty active set and the seat is missing
-            should_hide = is_hero or (active_set and i not in active_set)
+            is_hero_seat = hasattr(tracker, 'hero_seat') and seat_id == str(tracker.hero_seat)
             
-            if should_hide:
-                self.badges[i].hide()
+            # Badge is only shown if it's NOT the hero's current seat AND it's in the confirmed active set
+            should_show = False
+            if is_hero_seat:
+                should_show = False # Always hide the hero's on-table badge (we have the lifetime one)
+            elif active_set is None:
+                # If no set provided at all, default to showing (initial state)
+                should_show = True
+            elif seat_id in active_set:
+                # If set is provided and seat is in it, show it
+                should_show = True
+            
+            if should_show:
+                badge.show()
             else:
-                self.badges[i].show()
+                badge.hide()
                 
-            player = tracker.session_stats.get_seat(i)
-            player_name = tracker.seat_players.get(i, f"Seat {i}")
-            if player.hands_played >= 0:
-                self.badges[i].update_stats(player.vpip_percent, player.pfr_percent, player.hands_played, player_name=player_name)
+            try:
+                # Stats are keyed by integer seat numbers in the tracker
+                i = int(seat_id)
+                player = tracker.session_stats.get_seat(i)
+                player_name = tracker.seat_players.get(i, f"Seat {i}")
+                if player.hands_played >= 0:
+                    badge.update_stats(player.vpip_percent, player.pfr_percent, player.hands_played, player_name=player_name)
+            except (ValueError, TypeError):
+                continue
                 
-        # Hero stats
+        # Hero stats (Lifetime)
         if tracker.hero_stats and tracker.hero_stats.hands_played >= 0:
-            hero_name = "Hero"
+            hero_display_name = "Hero"
             if hasattr(tracker, 'hero_seat') and tracker.hero_seat in tracker.seat_players:
-               hero_name = tracker.seat_players[tracker.hero_seat]
-            self.badges["hero"].update_stats(tracker.hero_stats.vpip_percent, tracker.hero_stats.pfr_percent, tracker.hero_stats.hands_played, hero_lifetime=True, player_name=f"{hero_name} (Lifetime)")
+                hero_display_name = tracker.seat_players[tracker.hero_seat]
+            self.badges["hero"].update_stats(
+                tracker.hero_stats.vpip_percent, 
+                tracker.hero_stats.pfr_percent, 
+                tracker.hero_stats.hands_played, 
+                hero_lifetime=True, 
+                player_name=f"{hero_display_name} (Lifetime)"
+            )
             
     def shutdown(self):
         for b in self.badges.values():
