@@ -1,0 +1,33 @@
+
+================================================================================
+REGION: 0x3c24c000 (1 fragments)
+================================================================================
+
+--- [ checks] at 0x3c24c914 ---
+invalid HTTP headersshow stack traces on promise initialization and resolutionrun tests whose name do not match this regular expressionDisable inspector thread to be listening for SIGUSR1 signaladditional user conditions for conditional exports and importsRun with extra debug checks for memory leaks in Node.js itselfadditional user conditions for conditional exports and importsDisable inspector thread to be listening for SIGUSR1 signalrun tests whose name do not match this regular expressionuse an insecure HTTP parser that accepts invalid HTTP headersexperimental ES Module import.meta.resolve(
+
+
+================================================================================
+REGION: 0x3c274000 (3 fragments)
+================================================================================
+
+--- [ checks] at 0x3c2745e7 ---
+<�/<--experimental-wasm-modulesenable the permission systemg--experimental-permission@J'<�/��!E'< /<,/<,/<--experimental-repl-await--experimental-vm-modules--heapsnapshot-near-heap-limit�H'<6��) �*< /<,/<,/<silence deprecation warningsdisable checks for async_hooks--force-async-hooks-checksdisable loading native addonssilence all process warnings--preserve-symlinks-mainrtGenerate V8 profiler output.K'<�$�p/<��-<�-<�-<launch test runner on startupspecify test runner concurrencyspecify test runner timeoutregenerate test snapshotse_job--experimental-test-coverageap--test-coverage-b
+
+--- [ checks] at 0x3c2762e7 ---
+I--network-family-autoselection--experimental-vm-modules--experimental-webstoragePIexperimental Web Storage API--experimental-require-module--experimental-json-modules--force-async-hooks-checksokssilence all process warningsexperimental node:sqlite moduledisable checks for async_hooks--heapsnapshot-near-heap-limit--experimental-repl-await--experimental-abortcontrollersilence deprecation warnings--experimental-detect-modulespecify test runner timeout--experimental-websocketIexperimental WebSocket API--experimental-transform-typeslaunch test runner on startup--experimental-strip-types--experimen
+
+--- [ checks] at 0x3c276f47 ---
+tion--experimental-transform-types--enable-etw-stack-walking--trace-env-native-stack--experimental-top-level-await--report-exclude-network--experimental-default-type--experimental-test-isolation--force-async-hooks-checksoksset host:port for inspectordisable checks for async_hooks--experimental-shadow-realm--experimental-strip-types--report-uncaught-exceptionregenerate test snapshots--abort-on-uncaught-exceptioneexperimental node:sqlite module--test-coverage-branchesdonsdisable loading native addons--perf-prof-unwinding-infodisallow eval and friends--trace-env-native-stack--experimental-strip-t
+
+
+================================================================================
+REGION: 0x3c29c000 (2 fragments)
+================================================================================
+
+--- [ checks] at 0x3c29c3ec ---
+) and 'no-node-modules' (excluding usage from the node_modules folder)Generate heap snapshots whenever V8 is approaching the heap limit. No more than the specified number of heap snapshots will be generated.Disable trap-handler-based WebAssembly bound checks. V8 will insert inline bound checks when compiling WebAssembly which may slow down performance.Generate heap snapshots whenever V8 is approaching the heap limit. No more than the specified number of heap snapshots will be generated.Print access to require(esm). Options are 'all' (print all usage) and 'no-node-modules' (excluding usage from
+
+--- [ checks] at 0x3c29c410 ---
+sage from the node_modules folder)Generate heap snapshots whenever V8 is approaching the heap limit. No more than the specified number of heap snapshots will be generated.Disable trap-handler-based WebAssembly bound checks. V8 will insert inline bound checks when compiling WebAssembly which may slow down performance.Generate heap snapshots whenever V8 is approaching the heap limit. No more than the specified number of heap snapshots will be generated.Print access to require(esm). Options are 'all' (print all usage) and 'no-node-modules' (excluding usage from the node_modules folder)96 &<@�&
+

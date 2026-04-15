@@ -1,0 +1,141 @@
+Ignition Hand #4882017766: Hold'em No Limit - 2026/04/14 16:32:19
+Table 'Live Session' 6-max Seat #None is the button
+Seat 1: Player 1 (46925) [3s Ac]
+Seat 2: Player 2 (79750)
+Seat 4: Player 4 (97600) [6h 2h]
+Seat 6: Player 6 (39400)
+*** SUMMARY ***
+Total Board: [7h 4d Qd Ks Js]
+Seat 1 won 48525 chips (Final: 95450)
+Seat 8 won 12000 chips (Final: 12000)
+Hand #4882017766 complete.
+
+----------------------------------------
+
+Ignition Hand #4882018446: Hold'em No Limit - 2026/04/14 16:36:07
+Table 'Live Session' 6-max Seat #None is the button
+Seat 4: Player 4 (117350)
+Seat 6: Player 6 (48000)
+Seat 8: Player 8 (45300)
+*** SUMMARY ***
+Seat 2 won 41200 chips (Final: 41200)
+Seat 7 won 12000 chips (Final: 12000)
+Hand #4882018446 complete.
+
+----------------------------------------
+
+Ignition Hand #4882018446: Hold'em No Limit - 2026/04/14 16:36:24
+Table 'Live Session' 6-max Seat #None is the button
+Seat 4: Player 4 (117350)
+Seat 6: Player 6 (48000)
+Seat 8: Player 8 (45300)
+*** SUMMARY ***
+Seat 2 won 41200 chips (Final: 41200)
+Seat 7 won 12000 chips (Final: 12000)
+Hand #4882018446 complete.
+
+----------------------------------------
+
+Ignition Hand #4882018584: Hold'em No Limit - 2026/04/14 16:36:24
+Table 'Live Session' 6-max Seat #8 is the button
+Seat 2: Player 2 (41200)
+Seat 4: Player 4 (117350)
+Seat 6: Player 6 (48000)
+Seat 8: Player 8 (45300)
+*** BLINDS ***
+Seat 2: posts small blind 200
+Seat 4: posts big blind 400
+*** PREFLOP ***
+Seat 6: calls 400
+Seat 8: calls 400
+Seat 2: folds 0
+Seat 4: checks 0
+Seat 4: checks 0
+Seat 6: checks 0
+Seat 8: checks 0
+*** FLOP ***
+Board: [Ts 7s 6h]
+Seat 4: bets 1050
+Seat 6: folds 0
+Seat 8: folds 0
+*** SUMMARY ***
+Total Board: [Ts 7s 6h 2h]
+Seat 4 won 1000 chips (Final: 118350)
+Hand #4882018584 complete.
+
+----------------------------------------
+
+Ignition Hand #4882018942: Hold'em No Limit - 2026/04/14 16:38:19
+Table 'Live Session' 6-max Seat #None is the button
+Seat 2: Player 2 (41200)
+Seat 4: Player 4 (119150) [Jh Kd]
+Seat 6: Player 6 (47000)
+Seat 8: Player 8 (43900)
+Seat 9: Player 9 (39200)
+*** SUMMARY ***
+Total Board: [9c As Qc]
+Seat 3 won 12000 chips (Final: 12000)
+Seat 4 won 2000 chips (Final: 121150)
+Hand #4882018942 complete.
+
+----------------------------------------
+
+Ignition Hand #4882019057: Hold'em No Limit - 2026/04/14 16:38:54
+Table 'Live Session' 6-max Seat #8 is the button
+Seat 2: Player 2 (41200) [3d 2c]
+Seat 4: Player 4 (121150) [5c 2h]
+Seat 6: Player 6 (46600)
+Seat 8: Player 8 (43700)
+Seat 9: Player 9 (39200)
+*** BLINDS ***
+Seat 9: posts small blind 200
+Seat 2: posts big blind 400
+*** PREFLOP ***
+Seat 4: raises 400
+Seat 6: folds 0
+Seat 8: calls 2000
+Seat 9: calls 1800
+Seat 2: raises (all-in) 1600
+Seat 4: calls 39200
+Seat 8: folds 0
+Seat 9: folds 0
+*** SUMMARY ***
+Total Board: [4h 5d 7c 8c 9d]
+Seat 2 won 45200 chips (Final: 86400)
+Hand #4882019057 complete.
+
+----------------------------------------
+
+Ignition Hand #4882019175: Hold'em No Limit - 2026/04/14 16:39:48
+Table 'Live Session' 6-max Seat #9 is the button
+Seat 2: Player 2 (86400) [7h Qd]
+Seat 3: Player 3 (12000) [5h 9d]
+Seat 4: Player 4 (79950) [9s 6c]
+Seat 6: Player 6 (46600) [9c Ad]
+Seat 8: Player 8 (41700) [Ah 5d]
+Seat 9: Player 9 (37200)
+*** BLINDS ***
+Seat 2: posts small blind 200
+Seat 3: posts big blind 400
+*** PREFLOP ***
+Seat 4: calls 400
+Seat 6: calls 400
+Seat 8: calls 400
+Seat 9: calls 400
+Seat 2: calls 200
+Seat 3: checks 0
+Seat 2: checks 0
+Seat 3: checks 0
+Seat 4: calls (all-in) 79550
+Seat 6: calls (all-in) 46200
+Seat 8: calls (all-in) 41300
+Seat 9: folds 0
+Seat 2: raises (all-in) 79550
+Seat 3: calls (all-in) 11600
+*** SUMMARY ***
+Total Board: [Kc Qh Qc Td 4h]
+Seat 4 won 180650 chips (Final: 260600)
+Hand #4882019175 complete.
+
+----------------------------------------
+

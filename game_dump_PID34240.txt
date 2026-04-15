@@ -1,0 +1,133 @@
+
+================================================================================
+REGION: 0x3c780000 (3 fragments)
+================================================================================
+
+--- [TURN] at 0x3c7a26da ---
+D1� a�D1�0T�#��:�6z<�%z<-��:��R=�Rm��:�xy<)8z<�M�R��IERR_INVALID_SYNC_FORK_INPUTM�R�"y	"Value of "this" must be of type %s�
+�R��Re�Ri�]���:
+��D1� a�D1�0T�#��:�6z<�&z<-��:��R=�Rm��:�xy<8z<�M�RηOERR_INVALID_RETURN_VALUEM�RFߒERR_INVALID_STATEa	�R0]"z<ɂ�*� ��Re�Ri�]���:
+��D1� a�D1�0T�#��:�6z<q'z<-��:��R=�Rm��:�xy<	8z<�M�R>M|�ERR_INVALID_RETURN_PROPERTYM�R�t�G!ERR_INVALID_RETURN_PROPERTY_VALUE�
+�R��Re�Ri�]���:
+��D1� a�D1�0T�#��:�6z<=(z<-��:��R=�Rm��:�xy<�7z<(M�R*d��;Cannot specify both "breakEvalOnSigint" an
+
+--- [TURN] at 0x3c7a27a6 ---
+D1� a�D1�0T�#��:�6z<�&z<-��:��R=�Rm��:�xy<8z<�M�RηOERR_INVALID_RETURN_VALUEM�RFߒERR_INVALID_STATEa	�R0]"z<ɂ�*� ��Re�Ri�]���:
+��D1� a�D1�0T�#��:�6z<q'z<-��:��R=�Rm��:�xy<	8z<�M�R>M|�ERR_INVALID_RETURN_PROPERTYM�R�t�G!ERR_INVALID_RETURN_PROPERTY_VALUE�
+�R��Re�Ri�]���:
+��D1� a�D1�0T�#��:�6z<=(z<-��:��R=�Rm��:�xy<�7z<(M�R*d��;Cannot specify both "breakEvalOnSigint" and "eval" for REPLa	�R('z<M�RI�^��Re�Ri�]���:
+��D1� a�D1�0T�#��:�6z<	)z<-��:��R=�Rm��:�xy<�7z<(M�R�82�ERR_INVALID_REPL_EVAL_CONFIGM�R�oޏERR_IN
+
+--- [TURN] at 0x3c7a27ce ---
+z<-��:��R=�Rm��:�xy<8z<�M�RηOERR_INVALID_RETURN_VALUEM�RFߒERR_INVALID_STATEa	�R0]"z<ɂ�*� ��Re�Ri�]���:
+��D1� a�D1�0T�#��:�6z<q'z<-��:��R=�Rm��:�xy<	8z<�M�R>M|�ERR_INVALID_RETURN_PROPERTYM�R�t�G!ERR_INVALID_RETURN_PROPERTY_VALUE�
+�R��Re�Ri�]���:
+��D1� a�D1�0T�#��:�6z<=(z<-��:��R=�Rm��:�xy<�7z<(M�R*d��;Cannot specify both "breakEvalOnSigint" and "eval" for REPLa	�R('z<M�RI�^��Re�Ri�]���:
+��D1� a�D1�0T�#��:�6z<	)z<-��:��R=�Rm��:�xy<�7z<(M�R�82�ERR_INVALID_REPL_EVAL_CONFIGM�R�oޏERR_INVALID_REPL_INPUTa	�R �(z<	�R�
+
+
+================================================================================
+REGION: 0x48a40000 (1 fragments)
+================================================================================
+
+--- [ checks] at 0x48a40914 ---
+invalid HTTP headersshow stack traces on promise initialization and resolutionrun tests whose name do not match this regular expressionDisable inspector thread to be listening for SIGUSR1 signaladditional user conditions for conditional exports and importsRun with extra debug checks for memory leaks in Node.js itselfadditional user conditions for conditional exports and importsDisable inspector thread to be listening for SIGUSR1 signalrun tests whose name do not match this regular expressionuse an insecure HTTP parser that accepts invalid HTTP headersexperimental ES Module import.meta.resolve(
+
+
+================================================================================
+REGION: 0x48a54000 (2 fragments)
+================================================================================
+
+--- [ checks] at 0x48a5448c ---
+) and 'no-node-modules' (excluding usage from the node_modules folder)Generate heap snapshots whenever V8 is approaching the heap limit. No more than the specified number of heap snapshots will be generated.Disable trap-handler-based WebAssembly bound checks. V8 will insert inline bound checks when compiling WebAssembly which may slow down performance.Generate heap snapshots whenever V8 is approaching the heap limit. No more than the specified number of heap snapshots will be generated.Print access to require(esm). Options are 'all' (print all usage) and 'no-node-modules' (excluding usage from
+
+--- [ checks] at 0x48a544b0 ---
+sage from the node_modules folder)Generate heap snapshots whenever V8 is approaching the heap limit. No more than the specified number of heap snapshots will be generated.Disable trap-handler-based WebAssembly bound checks. V8 will insert inline bound checks when compiling WebAssembly which may slow down performance.Generate heap snapshots whenever V8 is approaching the heap limit. No more than the specified number of heap snapshots will be generated.Print access to require(esm). Options are 'all' (print all usage) and 'no-node-modules' (excluding usage from the node_modules folder)--user-data
+
+
+================================================================================
+REGION: 0x48a78000 (3 fragments)
+================================================================================
+
+--- [ checks] at 0x48a785e7 ---
+H��H--experimental-wasm-modulesenable the permission systemg--experimental-permission@��H�/��!��H �H,�H,�H--experimental-repl-await--experimental-vm-modules--heapsnapshot-near-heap-limit���H6��) �H �H,�H,�Hsilence deprecation warningsdisable checks for async_hooks--force-async-hooks-checksdisable loading native addonssilence all process warnings--preserve-symlinks-mainrtGenerate V8 profiler output.��H�$�p�H���H��H��Hlaunch test runner on startupspecify test runner concurrencyspecify test runner timeoutregenerate test snapshotse_job--experimental-test-coverageap--test-coverage-b
+
+--- [ checks] at 0x48a7a2e7 ---
+I--network-family-autoselection--experimental-vm-modules--experimental-webstoragePIexperimental Web Storage API--experimental-require-module--experimental-json-modules--force-async-hooks-checksokssilence all process warningsexperimental node:sqlite moduledisable checks for async_hooks--heapsnapshot-near-heap-limit--experimental-repl-await--experimental-abortcontrollersilence deprecation warnings--experimental-detect-modulespecify test runner timeout--experimental-websocketIexperimental WebSocket API--experimental-transform-typeslaunch test runner on startup--experimental-strip-types--experimen
+
+--- [ checks] at 0x48a7af47 ---
+tion--experimental-transform-types--enable-etw-stack-walking--trace-env-native-stack--experimental-top-level-await--report-exclude-network--experimental-default-type--experimental-test-isolation--force-async-hooks-checksoksset host:port for inspectordisable checks for async_hooks--experimental-shadow-realm--experimental-strip-types--report-uncaught-exceptionregenerate test snapshots--abort-on-uncaught-exceptioneexperimental node:sqlite module--test-coverage-branchesdonsdisable loading native addons--perf-prof-unwinding-infodisallow eval and friends--trace-env-native-stack--experimental-strip-t
+
+
+================================================================================
+REGION: 0x4d688000 (1 fragments)
+================================================================================
+
+--- [TURN] at 0x4d69ad09 ---
+�Rc.�$CHAR_DOT`\ RfN��CHAR_FORWARD_SLASH`^ RfVzHCHAR_BACKWARD_SLASH`� RfzB`CHAR_VERTICAL_LINE`�Rd.x�`
+CHAR_COLON`t Rf�7��CHAR_QUESTION_MARK`~ReD�CHAR_UNDERSCORE`�Re&�CHAR_LINE_FEED` Rfz���CHAR_CARRIAGE_RETURN`Rc���CHAR_TAB`Re��r�CHAR_FORM_FEED`$Rg�L�CHAR_EXCLAMATION_MARK`BRd�H��	CHAR_HASH`FRd�Ӧ6
+CHAR_SPACE`@ RfN��oCHAR_NO_BREAK_SPACE`@,Ri��CHAR_ZERO_WIDTH_NOBREAK_SPACE`��$Rg¢��CHAR_LEFT_SQUARE_BRACKET`�(Rh"}��CHAR_RIGHT_SQUARE_BRACKET`�$Rg�*g�CHAR_LEFT_ANGLE_BRACKET`x$Rg�.HCHAR_RIGHT_ANGLE_BRACKET`|$Rg��}CHAR_LEFT_CURLY_BRACKET`�
+
+
+================================================================================
+REGION: 0x4d804000 (1 fragments)
+================================================================================
+
+--- [TURN] at 0x4d816c21 ---
+ssRc:��requireRd�E4�ArrayIsArrayI Rf���-SymbolAsyncIteratorRb���eosRe�ASymbolDisposeRb2���onceRdұ;destroyImplRc�M�fDuplexRd:��
+AbortError Rf�ΦaggregateTwoErrors Rf��q�ERR_INVALID_ARG_TYPE$RgηOERR_INVALID_RETURN_VALUERe��g�ERR_MISSING_ARGS Rf�JC�ERR_STREAM_DESTROYED(Rh2��nERR_STREAM_PREMATURE_CLOSEReb-|'validateFunction Rf&u{�validateAbortSignalRd��1^
+isIterableRd��5�
+isReadable Rf*"��isReadableNodeStreamRd��<�isNodeStream RfnHisTransformStreamRd���!isWebStreamRez2isReadableStream Rf!m�isReadableFinished��Rd
+*4Pas
+
+
+================================================================================
+REGION: 0x4da74000 (4 fragments)
+================================================================================
+
+--- [TURN] at 0x4da76239 ---
+fDArrayPrototypeFindIndex Rf�Ju�ArrayPrototypePush Rf����ArrayPrototypeSpliceRdv�}�ObjectAssignRd���hObjectFreeze(Rh"�yYStringPrototypeStartsWith9Re>.>1isAnyArrayBuffer Rf�G�isArrayBufferViewRe2�x	BuiltinModule0Rj�t�G!ERR_INVALID_RETURN_PROPERTY_VALUEReb-|'validateFunctionRdv��J
+isAbsoluteRe���pathToFileURLRe�k��fileURLToPathRd._�{resolveHooksRd�UM�	loadHooksRc��d�hookIdRd�>?�
+nextHookIdRd��S�ModuleHooksRd(�
+buildHooksReN���validateResolveRd>#�validateLoad RfJZ�|ModuleResolveContext Rf��.�ModuleLoadContextRc��Ldecoder{���
+
+--- [TURN] at 0x4da8e64f ---
+���ERR_INVALID_PACKAGE_TARGET� Rf����ERR_INVALID_PROTOCOL8Rl�e�{*Protocol "%s" not supported. Expected "%s"(Rh�82�ERR_INVALID_REPL_EVAL_CONFIGHRp*d��;Cannot specify both "breakEvalOnSigint" and "eval" for REPL$Rg�oޏERR_INVALID_REPL_INPUT(Rh>M|�ERR_INVALID_RETURN_PROPERTY�0Rj�t�G!ERR_INVALID_RETURN_PROPERTY_VALUE�$RgηOERR_INVALID_RETURN_VALUE RfFߒERR_INVALID_STATE Rf֔fInvalid state: %s(Rh��IERR_INVALID_SYNC_FORK_INPUT`QvRAsynchronous forks do not support Buffer, TypedArray, DataView or string input: %sReچ�	ERR_INVALID_THIS0Rj�"y	"Value of "this" must be of
+
+--- [TURN] at 0x4da8e67a ---
+���ERR_INVALID_PROTOCOL8Rl�e�{*Protocol "%s" not supported. Expected "%s"(Rh�82�ERR_INVALID_REPL_EVAL_CONFIGHRp*d��;Cannot specify both "breakEvalOnSigint" and "eval" for REPL$Rg�oޏERR_INVALID_REPL_INPUT(Rh>M|�ERR_INVALID_RETURN_PROPERTY�0Rj�t�G!ERR_INVALID_RETURN_PROPERTY_VALUE�$RgηOERR_INVALID_RETURN_VALUE RfFߒERR_INVALID_STATE Rf֔fInvalid state: %s(Rh��IERR_INVALID_SYNC_FORK_INPUT`QvRAsynchronous forks do not support Buffer, TypedArray, DataView or string input: %sReچ�	ERR_INVALID_THIS0Rj�"y	"Value of "this" must be of type %s RfVY�ERR_INVALID_TUPLE,Ri
+
+--- [TURN] at 0x4da8e6ad ---
+" not supported. Expected "%s"(Rh�82�ERR_INVALID_REPL_EVAL_CONFIGHRp*d��;Cannot specify both "breakEvalOnSigint" and "eval" for REPL$Rg�oޏERR_INVALID_REPL_INPUT(Rh>M|�ERR_INVALID_RETURN_PROPERTY�0Rj�t�G!ERR_INVALID_RETURN_PROPERTY_VALUE�$RgηOERR_INVALID_RETURN_VALUE RfFߒERR_INVALID_STATE Rf֔fInvalid state: %s(Rh��IERR_INVALID_SYNC_FORK_INPUT`QvRAsynchronous forks do not support Buffer, TypedArray, DataView or string input: %sReچ�	ERR_INVALID_THIS0Rj�"y	"Value of "this" must be of type %s RfVY�ERR_INVALID_TUPLE,Ri�'�%s must be an iterable %s tuple,Ri�G
+
+
+================================================================================
+REGION: 0x4db7c000 (1 fragments)
+================================================================================
+
+--- [TURN] at 0x4db81870 ---
+_AslashedProtocolRd"ȴ2
+bindingUrlRe�2�QgetOptionValueRb�6�QUrlRe�g�protocolPatternRd���portPatternRd��E"hostPattern RfZO=KsimplePathPatternRe��hostnameMaxLenRd�Ӧ6
+CHAR_SPACERc���CHAR_TAB Rfz���CHAR_CARRIAGE_RETURNRe&�CHAR_LINE_FEED RfN��oCHAR_NO_BREAK_SPACE,Ri��CHAR_ZERO_WIDTH_NOBREAK_SPACERd�H��	CHAR_HASH RfN��CHAR_FORWARD_SLASH$Rg¢��CHAR_LEFT_SQUARE_BRACKET(Rh"}��CHAR_RIGHT_SQUARE_BRACKET$Rg�*g�CHAR_LEFT_ANGLE_BRACKET$Rg�.HCHAR_RIGHT_ANGLE_BRACKET$Rg��}CHAR_LEFT_CURLY_BRACKET$Rg���WCHAR_RIGHT_CURLY_BRACKET Rf�7��CHAR_QUESTION
+
+
+================================================================================
+REGION: 0x4dbb4000 (1 fragments)
+================================================================================
+
+--- [TURN] at 0x4dbb4301 ---
+Rf2AObjectDefineProperty,Rij�+ObjectPrototypeHasOwnPropertyRcʞ~�SafeSet(Rh�w�EStringPrototypeCharCodeAt$RgB`LStringPrototypeIncludes Rff|
+StringPrototypeSlice(Rh"�yYStringPrototypeStartsWith Rf��q�ERR_INVALID_ARG_TYPE0Rj�t�G!ERR_INVALID_RETURN_PROPERTY_VALUERe2�x	BuiltinModuleRe2��validateStringRb���XfsRd���L
+internalFSRbc �pathRe���pathToFileURLRe�k��fileURLToPath5	Re�2�QgetOptionValueRer��&setOwnPropertyRc�>inspectRd�؎
+lazyTmpdir�Rd"rK�URLCanParse Rf�qΝ_enableCompileCache Rf&�=C_getCompileCacheDirRe�b�realpathCache
+
+
+================================================================================
+REGION: 0x5da40000 (1 fragments)
+================================================================================
+
+--- [TURN] at 0x5da6211c ---
+CHAR_UPPERCASE_CM�RS�CHAR_UPPERCASE_EM�R.�$CHAR_DOTM�RN��CHAR_FORWARD_SLASHM�RVzHCHAR_BACKWARD_SLASHM�RzB`CHAR_VERTICAL_LINEM�R.x�`
+CHAR_COLONM�R�7��CHAR_QUESTION_MARKM�RD�CHAR_UNDERSCOREM�R&�CHAR_LINE_FEEDM�Rz���CHAR_CARRIAGE_RETURNM�R���CHAR_TABM�R��r�CHAR_FORM_FEEDM�R�L�CHAR_EXCLAMATION_MARKM�R�H��	CHAR_HASHM�R�Ӧ6
+CHAR_SPACEM�RN��oCHAR_NO_BREAK_SPACEM�R��CHAR_ZERO_WIDTH_NOBREAK_SPACEM�R¢��CHAR_LEFT_SQUARE_BRACKETM�R"}��CHAR_RIGHT_SQUARE_BRACKETM�R�*g�CHAR_LEFT_ANGLE_BRACKETM�R�.HCHAR_RIGHT_ANGLE_BRACKETM�R��}CHAR_LEFT_CURLY_BRACKETM�R�
+

@@ -1,0 +1,48 @@
+{
+    "hand_history_path": "C:\\Users\\ethma\\Documents\\Projects\\HammerHUD\\Handhists",
+    "hand_history_save_path": "C:\\Users\\ethma\\.gemini\\antigravity\\scratch\\poker_hud\\data\\hand_histories",
+    "hero_seat": 3,
+    "table_size": 6,
+    "badge_positions": {
+        "1": {
+            "x": 95,
+            "y": 327
+        },
+        "2": {
+            "x": 947,
+            "y": 483
+        },
+        "3": {
+            "x": 902,
+            "y": 568
+        },
+        "4": {
+            "x": 138,
+            "y": 116
+        },
+        "5": {
+            "x": 539,
+            "y": 48
+        },
+        "6": {
+            "x": 957,
+            "y": 106
+        },
+        "hero": {
+            "x": 676,
+            "y": 550
+        },
+        "9": {
+            "x": 658,
+            "y": 45
+        },
+        "8": {
+            "x": 802,
+            "y": 28
+        },
+        "7": {
+            "x": 400,
+            "y": 48
+        }
+    }
+}

@@ -1,0 +1,692 @@
+
+================================================================================
+REGION: 0x13700000 (1 fragments)
+================================================================================
+
+--- [RIVER] at 0x13701b39 ---
+ayingRd�@Lo	StartTimeRbz��AnteRd2�+�PayingBlindsRcjt�nPreFlopRb��ezFlopRb.�TurnRcBF�River$RgJ�CO_STATE_BET_HOLECARD Rf�|��CO_STATE_BET_FOURTH Rf�2RECO_STATE_BET_FIFTH RfM�CO_STATE_BET_SIXTH Rf22��CO_STATE_BET_RIVER Rf>�|0CO_STATE_DRAW_FIRST Rf�[�CO_STATE_DRAW_SECOND Rf6{�CO_STATE_DRAW_THIRDRev�FSShowAndMuckCards(Rh�9TournamentShowAndMuckCards Rf�b�GivingChipsToWinner!�9;��9;��9;�
+�9;��9;��9;� �9;�@�9;���9 ;�"�9	$	;�&�9
+(
+;�*�9,;�.�90;�2�94
+
+
+================================================================================
+REGION: 0x21140000 (1 fragments)
+================================================================================
+
+--- [RIVER] at 0x2115fc31 ---
+ayingM,D�@Lo	StartTimeM,Dz��AnteM,D2�+�PayingBlindsM,Djt�nPreFlopM,D��ezFlopM,D.�TurnM,DBF�RiverM,DJ�CO_STATE_BET_HOLECARDM,D�|��CO_STATE_BET_FOURTHM,D�2RECO_STATE_BET_FIFTHM,DM�CO_STATE_BET_SIXTHM,D22��CO_STATE_BET_RIVERM,D>�|0CO_STATE_DRAW_FIRSTM,D�[�CO_STATE_DRAW_SECONDM,D6{�CO_STATE_DRAW_THIRDM,Dv�FSShowAndMuckCardsM,D�9TournamentShowAndMuckCardsM,D�b�GivingChipsToWinnera	,D@j	�A,D����	,D=Z!�,DL8�,�8�,�8�,�8�,�8�,�8�,�8),D	7\-������!��!�[!@-a,D	7\-M,D>u��CO_STATE_SHOWa	,D(]�!�A,D����	,D=Z!�,D<8�,�8�,�8
+
+
+================================================================================
+REGION: 0x25d00000 (3 fragments)
+================================================================================
+
+--- [TURN] at 0x25d146ea ---
+,D�<!,D	,D�<a	,D�D�%M,D����ERR_INVALID_PROTOCOLM,D�e�{*Protocol "%s" not supported. Expected "%s"M,D�82�ERR_INVALID_REPL_EVAL_CONFIGM,D*d��;Cannot specify both "breakEvalOnSigint" and "eval" for REPLM,D�oޏERR_INVALID_REPL_INPUTM,D>M|�ERR_INVALID_RETURN_PROPERTYa"461!�
+	246�H�%��M,Dy
+,D3G�%M,D.���firma"461!�
+	246�F�%��M,Dy
+,D�>�%�,DG!L�(�,D�5L�(�
+,DM,D�t�G!ERR_INVALID_RETURN_PROPERTY_VALUEa	,D0�E�%Expected M,DηOERR_INVALID_RETURN_VALUE!,D	,Dj%<!,D	,Dk%<!,D	,Dl%<!,D	,Dm%<�
+,Dt M,DFߒERR_INVALID_STATEM,D֔fInvalid state: %sM,D��IERR_INVAL
+
+--- [TURN] at 0x25d1479e ---
+nnot specify both "breakEvalOnSigint" and "eval" for REPLM,D�oޏERR_INVALID_REPL_INPUTM,D>M|�ERR_INVALID_RETURN_PROPERTYa"461!�
+	246�H�%��M,Dy
+,D3G�%M,D.���firma"461!�
+	246�F�%��M,Dy
+,D�>�%�,DG!L�(�,D�5L�(�
+,DM,D�t�G!ERR_INVALID_RETURN_PROPERTY_VALUEa	,D0�E�%Expected M,DηOERR_INVALID_RETURN_VALUE!,D	,Dj%<!,D	,Dk%<!,D	,Dl%<!,D	,Dm%<�
+,Dt M,DFߒERR_INVALID_STATEM,D֔fInvalid state: %sM,D��IERR_INVALID_SYNC_FORK_INPUTa"461!�
+	246uU�%��M,Dy
+,D�H�%a"461!�
+	246�H�%��M,Dy
+,D�F�%a	,D8�G�%string input: %sM,D�"y	"Value of "this" must be of t
+
+--- [TURN] at 0x25d147e6 ---
+R_INVALID_REPL_INPUTM,D>M|�ERR_INVALID_RETURN_PROPERTYa"461!�
+	246�H�%��M,Dy
+,D3G�%M,D.���firma"461!�
+	246�F�%��M,Dy
+,D�>�%�,DG!L�(�,D�5L�(�
+,DM,D�t�G!ERR_INVALID_RETURN_PROPERTY_VALUEa	,D0�E�%Expected M,DηOERR_INVALID_RETURN_VALUE!,D	,Dj%<!,D	,Dk%<!,D	,Dl%<!,D	,Dm%<�
+,Dt M,DFߒERR_INVALID_STATEM,D֔fInvalid state: %sM,D��IERR_INVALID_SYNC_FORK_INPUTa"461!�
+	246uU�%��M,Dy
+,D�H�%a"461!�
+	246�H�%��M,Dy
+,D�F�%a	,D8�G�%string input: %sM,D�"y	"Value of "this" must be of type %sM,DVY�ERR_INVALID_TUPLEM,D�'�%s must be an iterable %s 
+
+
+================================================================================
+REGION: 0x26040000 (1 fragments)
+================================================================================
+
+--- [ checks] at 0x26040914 ---
+invalid HTTP headersshow stack traces on promise initialization and resolutionrun tests whose name do not match this regular expressionDisable inspector thread to be listening for SIGUSR1 signaladditional user conditions for conditional exports and importsRun with extra debug checks for memory leaks in Node.js itselfadditional user conditions for conditional exports and importsDisable inspector thread to be listening for SIGUSR1 signalrun tests whose name do not match this regular expressionuse an insecure HTTP parser that accepts invalid HTTP headersexperimental ES Module import.meta.resolve(
+
+
+================================================================================
+REGION: 0x26054000 (2 fragments)
+================================================================================
+
+--- [ checks] at 0x2605448c ---
+) and 'no-node-modules' (excluding usage from the node_modules folder)Generate heap snapshots whenever V8 is approaching the heap limit. No more than the specified number of heap snapshots will be generated.Disable trap-handler-based WebAssembly bound checks. V8 will insert inline bound checks when compiling WebAssembly which may slow down performance.Generate heap snapshots whenever V8 is approaching the heap limit. No more than the specified number of heap snapshots will be generated.Print access to require(esm). Options are 'all' (print all usage) and 'no-node-modules' (excluding usage from
+
+--- [ checks] at 0x260544b0 ---
+sage from the node_modules folder)Generate heap snapshots whenever V8 is approaching the heap limit. No more than the specified number of heap snapshots will be generated.Disable trap-handler-based WebAssembly bound checks. V8 will insert inline bound checks when compiling WebAssembly which may slow down performance.Generate heap snapshots whenever V8 is approaching the heap limit. No more than the specified number of heap snapshots will be generated.Print access to require(esm). Options are 'all' (print all usage) and 'no-node-modules' (excluding usage from the node_modules folder)--user-data
+
+
+================================================================================
+REGION: 0x26078000 (3 fragments)
+================================================================================
+
+--- [ checks] at 0x260785e7 ---
+&�&--experimental-wasm-modulesenable the permission systemg--experimental-permission@�&�/��!�& &,&,&--experimental-repl-await--experimental-vm-modules--heapsnapshot-near-heap-limit��&6��) 
+& &,&,&silence deprecation warningsdisable checks for async_hooks--force-async-hooks-checksdisable loading native addonssilence all process warnings--preserve-symlinks-mainrtGenerate V8 profiler output.�&�$�p&��&�&�&launch test runner on startupspecify test runner concurrencyspecify test runner timeoutregenerate test snapshotse_job--experimental-test-coverageap--test-coverage-b
+
+--- [ checks] at 0x2607a2e7 ---
+I--network-family-autoselection--experimental-vm-modules--experimental-webstoragePIexperimental Web Storage API--experimental-require-module--experimental-json-modules--force-async-hooks-checksokssilence all process warningsexperimental node:sqlite moduledisable checks for async_hooks--heapsnapshot-near-heap-limit--experimental-repl-await--experimental-abortcontrollersilence deprecation warnings--experimental-detect-modulespecify test runner timeout--experimental-websocketIexperimental WebSocket API--experimental-transform-typeslaunch test runner on startup--experimental-strip-types--experimen
+
+--- [ checks] at 0x2607af47 ---
+tion--experimental-transform-types--enable-etw-stack-walking--trace-env-native-stack--experimental-top-level-await--report-exclude-network--experimental-default-type--experimental-test-isolation--force-async-hooks-checksoksset host:port for inspectordisable checks for async_hooks--experimental-shadow-realm--experimental-strip-types--report-uncaught-exceptionregenerate test snapshots--abort-on-uncaught-exceptioneexperimental node:sqlite module--test-coverage-branchesdonsdisable loading native addons--perf-prof-unwinding-infodisallow eval and friends--trace-env-native-stack--experimental-strip-t
+
+
+================================================================================
+REGION: 0x26680000 (1 fragments)
+================================================================================
+
+--- [successfully added] at 0x266bc01d ---
+,D�#C�get codeM,DFDaset codea,D	,D	,D�k&�B�=ݽk&	,D	,DY,D	,D�"���a,D	,D	,D��=�B�=ݽk&	,D	,DY,D	,D�"���M,DF�~get messagea	,D0}�k&set messagea,D	,D	,D��k&�B�=ݽk&	,D	,DY,D	,D�"����,D)You have successfully added 120 in chips.�
+,D!,D�k&	,D!,DY�k&	,D!,Dɿk&	,D),D��k&A,DY,D	,D������Y��k&g$Z=,D@?<m�k&�"46�c,Da"46/�@�)46+46!g$ZM,Dy
+,D+46=,D=,D(=�rEL�DY�FL�
+,D��k&a"461!�p�46)-46q,DM,Dy
+,D),Dݽk&�B�=Y,D	,D�����Y��k&Ug$Z=,DA?<-�k&�"46�c,D}�k&a"46)"�@
+�g$Z]�k&q,DM,Dy
+,Da"46/��
+�)46�646�g$ZM,Dy
+,D�k&�,D
+1��(9�Z�Q��)�
+
+
+================================================================================
+REGION: 0x274c0000 (3 fragments)
+================================================================================
+
+--- [Result for hand] at 0x274dca69 ---
+,D=,D�5<%��Y%�M'�6b$Y,DT66�!ZN���	,D	,D��46=,D=,D	/bX=,D=,D�1,Dqc66=,D=,D�,56=,D=,D264�q�Y�@4KydaXY,DT66���Y�_��T��,56=,D=,D�5<%��Y��M'�6b$Y,DT66�!ZN���	,D	,D��46=,D=,D	/bX=,D=,D!�0��L=,D=,DY�M'q,D��%],D��D	�M'��M'�L�**<< Result for hand 4882007628 >>**
+
+**Player 6** wins main pot (800) with (Straight, five to ace).
+
+
+~~~cardlist
+["Hearts5", "Spades4", "Diamonds3", "Spades2", "ClubsAce"]
+~~~
+],D-�M'qc66=,D�M'�,56=,D=,D264�q�Y�@4KydaXY,D],D-�M'	,Dqc66=,DU�M'�,56=,D=,D264�q�Y�@4KydaXY,D�$�L��M'=,D�v�I	,D��E�1,D	,D�i,Di,DM,Di,DM,D��M
+
+--- [wins main pot] at 0x274db135 ---
+,D�5<��6��M'5Yb$Y,D�,56=,D=,D�5<�6��M'EYb$Y,D],DY,D��46=,DA�M'���Y=,D=,D�M'կM'q,DeJ�Y<56=,D=,DQ��Ny�6�,56=,D=,D�8<��6�;�]G�YY,D<56=,D=,D��NIXN�,D'E�M'},D<ѰM'�kM'�,D).},D>�M'A,D�,D>**Player 6** wins main pot (800) with (Straight, five to ace).�,56=,D=,D�*<�XN%�M'�_UY,DT66�JXN!74K�M'],D	�M'i�M'�M'qc66=,D��M'�,56=,D=,D�*<KXN��M'�_UY,D9c�[=,D=,D%�M'�kM'M,D�,De,D�0��,De,D�0�	�)��,De,D�0�	�)�!�)� ��Le,D�0�	�)�!�)� �XN�0	/bX=,D=,D�e!qc66=,D=,D�,56=,D=,D264�q�Y�@4KydaXY,DT66���Y�
+
+--- [wins main pot] at 0x274dca97 ---
+D	,D��46=,D=,D	/bX=,D=,D�1,Dqc66=,D=,D�,56=,D=,D264�q�Y�@4KydaXY,DT66���Y�_��T��,56=,D=,D�5<%��Y��M'�6b$Y,DT66�!ZN���	,D	,D��46=,D=,D	/bX=,D=,D!�0��L=,D=,DY�M'q,D��%],D��D	�M'��M'�L�**<< Result for hand 4882007628 >>**
+
+**Player 6** wins main pot (800) with (Straight, five to ace).
+
+
+~~~cardlist
+["Hearts5", "Spades4", "Diamonds3", "Spades2", "ClubsAce"]
+~~~
+],D-�M'qc66=,D�M'�,56=,D=,D264�q�Y�@4KydaXY,D],D-�M'	,Dqc66=,DU�M'�,56=,D=,D264�q�Y�@4KydaXY,D�$�L��M'=,D�v�I	,D��E�1,D	,D�i,Di,DM,Di,DM,D��M'@��L=,D=,D鬐Y��M'=,D�	,D-�M'	,D�M'��
+
+
+================================================================================
+REGION: 0x29ac0000 (2 fragments)
+================================================================================
+
+--- [Result for hand] at 0x29acf351 ---
+?5����Y�)Y,D�[!@�2�
+,D=?5�,D�q>�&�&5,DQ5,D�4,D������A,D����	,D),D��=������)Ec,D�[!@�2�
+,D=?5�,D�qA��&��&A,D����	,DY�)M��Y=,D=,D%,D%,D���B%,DM��Y=,D=,D%,D%,D���B%,DM,D��.�latency�,D�**<< Result for hand 4882007442 >>**
+
+**Player 6** wins main pot (1,250) with (One pair, kings).
+
+
+~~~cardlist
+["HeartsK", "ClubsK", "HeartsAce", "Clubs10", "Diamonds9"]
+~~~
+�,D$c161edd5-507f-4db7-875e-6d98b2d6e32e�,D<�&��&M,D�|startTimeCountingM,D���|stopTimeCountingAndSendReportM,DF�;�getLatencyInMSa	,D8	�)e,D�a,D�),D�?5�����4,DY�)�[!D��2},D��,D��)},D
+
+--- [wins main pot] at 0x29acf37f ---
+D=?5�,D�q>�&�&5,DQ5,D�4,D������A,D����	,D),D��=������)Ec,D�[!@�2�
+,D=?5�,D�qA��&��&A,D����	,DY�)M��Y=,D=,D%,D%,D���B%,DM��Y=,D=,D%,D%,D���B%,DM,D��.�latency�,D�**<< Result for hand 4882007442 >>**
+
+**Player 6** wins main pot (1,250) with (One pair, kings).
+
+
+~~~cardlist
+["HeartsK", "ClubsK", "HeartsAce", "Clubs10", "Diamonds9"]
+~~~
+�,D$c161edd5-507f-4db7-875e-6d98b2d6e32e�,D<�&��&M,D�|startTimeCountingM,D���|stopTimeCountingAndSendReportM,DF�;�getLatencyInMSa	,D8	�)e,D�a,D�),D�?5�����4,DY�)�[!D��2},D��,D��)},D1,D��)},D�4,D)��)},D1,
+
+
+================================================================================
+REGION: 0x2c3e4000 (1 fragments)
+================================================================================
+
+--- [TURN] at 0x2c3eeb01 ---
+Rf2AObjectDefineProperty,Rij�+ObjectPrototypeHasOwnPropertyRcʞ~�SafeSet(Rh�w�EStringPrototypeCharCodeAt$RgB`LStringPrototypeIncludes Rff|
+StringPrototypeSlice(Rh"�yYStringPrototypeStartsWith Rf��q�ERR_INVALID_ARG_TYPE0Rj�t�G!ERR_INVALID_RETURN_PROPERTY_VALUERe2�x	BuiltinModuleRe2��validateStringRb���XfsRd���L
+internalFSRbc �pathRe���pathToFileURLRe�k��fileURLToPath5	Re�2�QgetOptionValueRer��&setOwnPropertyRc�>inspectRd�؎
+lazyTmpdir�Rd"rK�URLCanParse Rf�qΝ_enableCompileCache Rf&�=C_getCompileCacheDirRe�b�realpathCache
+
+
+================================================================================
+REGION: 0x2c644000 (3 fragments)
+================================================================================
+
+--- [TURN] at 0x2c65664f ---
+���ERR_INVALID_PACKAGE_TARGET� Rf����ERR_INVALID_PROTOCOL8Rl�e�{*Protocol "%s" not supported. Expected "%s"(Rh�82�ERR_INVALID_REPL_EVAL_CONFIGHRp*d��;Cannot specify both "breakEvalOnSigint" and "eval" for REPL$Rg�oޏERR_INVALID_REPL_INPUT(Rh>M|�ERR_INVALID_RETURN_PROPERTY�0Rj�t�G!ERR_INVALID_RETURN_PROPERTY_VALUE�$RgηOERR_INVALID_RETURN_VALUE RfFߒERR_INVALID_STATE Rf֔fInvalid state: %s(Rh��IERR_INVALID_SYNC_FORK_INPUT`QvRAsynchronous forks do not support Buffer, TypedArray, DataView or string input: %sReچ�	ERR_INVALID_THIS0Rj�"y	"Value of "this" must be of
+
+--- [TURN] at 0x2c65667a ---
+���ERR_INVALID_PROTOCOL8Rl�e�{*Protocol "%s" not supported. Expected "%s"(Rh�82�ERR_INVALID_REPL_EVAL_CONFIGHRp*d��;Cannot specify both "breakEvalOnSigint" and "eval" for REPL$Rg�oޏERR_INVALID_REPL_INPUT(Rh>M|�ERR_INVALID_RETURN_PROPERTY�0Rj�t�G!ERR_INVALID_RETURN_PROPERTY_VALUE�$RgηOERR_INVALID_RETURN_VALUE RfFߒERR_INVALID_STATE Rf֔fInvalid state: %s(Rh��IERR_INVALID_SYNC_FORK_INPUT`QvRAsynchronous forks do not support Buffer, TypedArray, DataView or string input: %sReچ�	ERR_INVALID_THIS0Rj�"y	"Value of "this" must be of type %s RfVY�ERR_INVALID_TUPLE,Ri
+
+--- [TURN] at 0x2c6566ad ---
+" not supported. Expected "%s"(Rh�82�ERR_INVALID_REPL_EVAL_CONFIGHRp*d��;Cannot specify both "breakEvalOnSigint" and "eval" for REPL$Rg�oޏERR_INVALID_REPL_INPUT(Rh>M|�ERR_INVALID_RETURN_PROPERTY�0Rj�t�G!ERR_INVALID_RETURN_PROPERTY_VALUE�$RgηOERR_INVALID_RETURN_VALUE RfFߒERR_INVALID_STATE Rf֔fInvalid state: %s(Rh��IERR_INVALID_SYNC_FORK_INPUT`QvRAsynchronous forks do not support Buffer, TypedArray, DataView or string input: %sReچ�	ERR_INVALID_THIS0Rj�"y	"Value of "this" must be of type %s RfVY�ERR_INVALID_TUPLE,Ri�'�%s must be an iterable %s tuple,Ri�G
+
+
+================================================================================
+REGION: 0x2c6e8000 (1 fragments)
+================================================================================
+
+--- [TURN] at 0x2c6f3239 ---
+fDArrayPrototypeFindIndex Rf�Ju�ArrayPrototypePush Rf����ArrayPrototypeSpliceRdv�}�ObjectAssignRd���hObjectFreeze(Rh"�yYStringPrototypeStartsWith9Re>.>1isAnyArrayBuffer Rf�G�isArrayBufferViewRe2�x	BuiltinModule0Rj�t�G!ERR_INVALID_RETURN_PROPERTY_VALUEReb-|'validateFunctionRdv��J
+isAbsoluteRe���pathToFileURLRe�k��fileURLToPathRd._�{resolveHooksRd�UM�	loadHooksRc��d�hookIdRd�>?�
+nextHookIdRd��S�ModuleHooksRd(�
+buildHooksReN���validateResolveRd>#�validateLoad RfJZ�|ModuleResolveContext Rf��.�ModuleLoadContextRc��Ldecoder{���
+
+
+================================================================================
+REGION: 0x2c788000 (1 fragments)
+================================================================================
+
+--- [TURN] at 0x2c78d309 ---
+�Rc.�$CHAR_DOT`\ RfN��CHAR_FORWARD_SLASH`^ RfVzHCHAR_BACKWARD_SLASH`� RfzB`CHAR_VERTICAL_LINE`�Rd.x�`
+CHAR_COLON`t Rf�7��CHAR_QUESTION_MARK`~ReD�CHAR_UNDERSCORE`�Re&�CHAR_LINE_FEED` Rfz���CHAR_CARRIAGE_RETURN`Rc���CHAR_TAB`Re��r�CHAR_FORM_FEED`$Rg�L�CHAR_EXCLAMATION_MARK`BRd�H��	CHAR_HASH`FRd�Ӧ6
+CHAR_SPACE`@ RfN��oCHAR_NO_BREAK_SPACE`@,Ri��CHAR_ZERO_WIDTH_NOBREAK_SPACE`��$Rg¢��CHAR_LEFT_SQUARE_BRACKET`�(Rh"}��CHAR_RIGHT_SQUARE_BRACKET`�$Rg�*g�CHAR_LEFT_ANGLE_BRACKET`x$Rg�.HCHAR_RIGHT_ANGLE_BRACKET`|$Rg��}CHAR_LEFT_CURLY_BRACKET`�
+
+
+================================================================================
+REGION: 0x2cb6c000 (1 fragments)
+================================================================================
+
+--- [TURN] at 0x2cbd4221 ---
+ssRc:��requireRd�E4�ArrayIsArrayI Rf���-SymbolAsyncIteratorRb���eosRe�ASymbolDisposeRb2���onceRdұ;destroyImplRc�M�fDuplexRd:��
+AbortError Rf�ΦaggregateTwoErrors Rf��q�ERR_INVALID_ARG_TYPE$RgηOERR_INVALID_RETURN_VALUERe��g�ERR_MISSING_ARGS Rf�JC�ERR_STREAM_DESTROYED(Rh2��nERR_STREAM_PREMATURE_CLOSEReb-|'validateFunction Rf&u{�validateAbortSignalRd��1^
+isIterableRd��5�
+isReadable Rf*"��isReadableNodeStreamRd��<�isNodeStream RfnHisTransformStreamRd���!isWebStreamRez2isReadableStream Rf!m�isReadableFinished��Rd
+*4Pas
+
+
+================================================================================
+REGION: 0x2cbdc000 (1 fragments)
+================================================================================
+
+--- [TURN] at 0x2cbdc470 ---
+_AslashedProtocolRd"ȴ2
+bindingUrlRe�2�QgetOptionValueRb�6�QUrlRe�g�protocolPatternRd���portPatternRd��E"hostPattern RfZO=KsimplePathPatternRe��hostnameMaxLenRd�Ӧ6
+CHAR_SPACERc���CHAR_TAB Rfz���CHAR_CARRIAGE_RETURNRe&�CHAR_LINE_FEED RfN��oCHAR_NO_BREAK_SPACE,Ri��CHAR_ZERO_WIDTH_NOBREAK_SPACERd�H��	CHAR_HASH RfN��CHAR_FORWARD_SLASH$Rg¢��CHAR_LEFT_SQUARE_BRACKET(Rh"}��CHAR_RIGHT_SQUARE_BRACKET$Rg�*g�CHAR_LEFT_ANGLE_BRACKET$Rg�.HCHAR_RIGHT_ANGLE_BRACKET$Rg��}CHAR_LEFT_CURLY_BRACKET$Rg���WCHAR_RIGHT_CURLY_BRACKET Rf�7��CHAR_QUESTION
+
+
+================================================================================
+REGION: 0x31f80000 (2 fragments)
+================================================================================
+
+--- [Result for hand] at 0x31f92129 ---
+�EM,Dy
+,D3 �1M,D�zuseNewTournamentInfo@100a"46vt1!��
+	246��1	�EM,Dy
+,D �1M,DR�n8useNewTournamentGames@42a"46vu1!��
+	2461 �1	�EM,Dy
+,D� �1M,D�3�useNewTournamentGames@40a"46vv1!��A	246} �1	�EM,Dy
+,D�,D�U�'�,D1V�'�,D�V�'�,DiW�'�,D}Y�'�,D�**<< Result for hand 4882007735 >>**
+
+**Player 5** wins main pot (802) with (Three of a kind, kings).
+
+
+~~~cardlist
+["SpadesK", "DiamondsK", "ClubsK", "SpadesJ", "Spades6"]
+~~~
+�,De,D���T��
+,Dq,D
+�o0��1���B1F	�@
+���B���1="�1M,Dy
+,D�,De,Db,D5A,Dmb,DV
+��,D�,De,Db,D5A,Dmb,DV
+��,D�,D�P�'�,D%
+
+--- [wins main pot] at 0x31f92157 ---
+o@100a"46vt1!��
+	246��1	�EM,Dy
+,D �1M,DR�n8useNewTournamentGames@42a"46vu1!��
+	2461 �1	�EM,Dy
+,D� �1M,D�3�useNewTournamentGames@40a"46vv1!��A	246} �1	�EM,Dy
+,D�,D�U�'�,D1V�'�,D�V�'�,DiW�'�,D}Y�'�,D�**<< Result for hand 4882007735 >>**
+
+**Player 5** wins main pot (802) with (Three of a kind, kings).
+
+
+~~~cardlist
+["SpadesK", "DiamondsK", "ClubsK", "SpadesJ", "Spades6"]
+~~~
+�,De,D���T��
+,Dq,D
+�o0��1���B1F	�@
+���B���1="�1M,Dy
+,D�,De,Db,D5A,Dmb,DV
+��,D�,De,Db,D5A,Dmb,DV
+��,D�,D�P�'�,D%Q�'�,D�Q�'�,D)R�'�,D�R�'�,DS�'�,DaT�
+
+
+================================================================================
+REGION: 0x3a414000 (11 fragments)
+================================================================================
+
+--- [wins main pot] at 0x3a421415 ---
+�����1<link rel=preload> uses an unsupported `as` value���0#setImmediate$0.9855965539364658$382@�@"nowN�����L"A"`�1, �@: �1,`/�@�1,@�@:��1,x/���1,��o;aramso"timerIdI"	timerType"�mA"5Player 5 wins main pot (2,446) with (One pair, aces).wNgff�RA"@.4��0:9static/media/sfx-chips-to-winner-notification.59cbc865.mp3��?.4���!A"1<link rel=preload> uses an unsupported `as` value1<link rel=preload> uses an unsupported `as` value8��53|{"seq":11,"tDiff":0,"data":{"pid":"PLAY_CLEAR_INFO"}}"1=�/Hstatic/media/btn-player-control-plus.a2e8627c.mp3
+
+--- [wins main pot] at 0x3a425b4d ---
+�����?��?�����?`�B@�������������������������) �T�A"A"@BĦ61|{"seq":18,"tDiff":0,"data":{"time":7,"pid":"PLAY_TIME_INFO"}}5 wins main pot (232) with (Two pair, tens and fives).Type"� A"`�1, �@: �1,`/�@�1,@�@:��1,x/���1,��o;aramso"timerIdI�
+"	timerType"�W A"3=c�static/media/frame-corner-bottom-right.698aea07.svg �M:��1,;䯙56|{"seq":51,"tDiff":0,"data":{"pid":"PLAY_STAGE_END_REQ"}}`�1, �@: �1,`/�@�1,@�@:��1,x/���1,��o;ramso"delayNY@"nowN�fffwb A"=Player 5 wins main pot (232) with (Two pair, tens and fives). A"���"#setImmediate$0.9855965539364658$391Y@"nowN�fff
+
+--- [wins main pot] at 0x3a425d35 ---
+tom-right.698aea07.svg �M:��1,;䯙56|{"seq":51,"tDiff":0,"data":{"pid":"PLAY_STAGE_END_REQ"}}`�1, �@: �1,`/�@�1,@�@:��1,x/���1,��o;ramso"delayNY@"nowN�fffwb A"=Player 5 wins main pot (232) with (Two pair, tens and fives). A"���"#setImmediate$0.9855965539364658$391Y@"nowN�fff;i"A"�4,��-"A"`�1, �@: �1,`/�@�1,@�@:��1,x/���1,��o;5539364658$27@@"nowN333G�A"6Player 6 wins main pot (1,250) with (One pair, kings).N���txA"agil����gilc����tlac����swhc����Type"@�",�@:��1,��o;�1,�{�;`�1,��o;��1,|�;�1,V;o"timerIdI�"	timerType"A":B_�Ž��o"id0"method"set"pa
+
+--- [wins main pot] at 0x3a425e75 ---
+with (Two pair, tens and fives). A"���"#setImmediate$0.9855965539364658$391Y@"nowN�fff;i"A"�4,��-"A"`�1, �@: �1,`/�@�1,@�@:��1,x/���1,��o;5539364658$27@@"nowN333G�A"6Player 6 wins main pot (1,250) with (One pair, kings).N���txA"agil����gilc����tlac����swhc����Type"@�",�@:��1,��o;�1,�{�;`�1,��o;��1,|�;�1,V;o"timerIdI�"	timerType"A":B_�Ž��o"id0"method"set"paramso"delayNY@"nowN�r"A"36�width:66.66666666666667%;margin:0 0px 0 0;padding:0nowN�3332."A":B`�Ž�o`�B@������������������������imerType"5	݂border-color:#B3C3C2;background-color:#153838;left:
+
+--- [wins main pot] at 0x3a426cd5 ---
+paramso"timerIdI�"	timerType"���;���;�/A:�/A:tsopperpXNA:��1,`/A:�����������&��1,��������������������tsopperpO4Player 5 wins main pot (804) with (Flush, ace high).owN�333D& A"�/A:��1,XNA:��1,P@�`���A���
+��������&��1,��������������������3��A"B�P_A:�]A:�A�Type"XNA:��1,0B���1,��������&��1,���������������������B���1,�B������;��1, ��;��1,
+
+--- [wins main pot] at 0x3a42811d ---
+announcement-bag-distribution.8efee3a8.mp3P2�d��@����,0^��-00:9static/media/sfx-mko-final-table-announcement.a4d71973.mp3:B��Ž~O`�B@0"id0"method"set"paramso"delayNY@"nowN��̇2"A"2 wins main pot (800) with (Straight, five to ace).owN�� A":Player 6 wins main pot (800) with (Straight, five to ace).��!A":B��Ž|`�B@0D	;	 	-���3Player 7 wins main pot (360) with (One pair, aces).nowN�333�!A"`�B@���������������������������M:��1,H�A:��1,�#,81��53|{"seq":95,"tDiff":1,"data":{"pid":"PLAY_CLEAR_INFO"}}333�xA"@�61|{"seq":96,"tDiff":0,"data":{"seat":5,"pid":"
+
+--- [wins main pot] at 0x3a428175 ---
+,0^��-00:9static/media/sfx-mko-final-table-announcement.a4d71973.mp3:B��Ž~O`�B@0"id0"method"set"paramso"delayNY@"nowN��̇2"A"2 wins main pot (800) with (Straight, five to ace).owN�� A":Player 6 wins main pot (800) with (Straight, five to ace).��!A":B��Ž|`�B@0D	;	 	-���3Player 7 wins main pot (360) with (One pair, aces).nowN�333�!A"`�B@���������������������������M:��1,H�A:��1,�#,81��53|{"seq":95,"tDiff":1,"data":{"pid":"PLAY_CLEAR_INFO"}}333�xA"@�61|{"seq":96,"tDiff":0,"data":{"seat":5,"pid":"CO_DEALER_SEAT"}}3=
+�https://games.ignitioncasino.eu/
+
+--- [wins main pot] at 0x3a428215 ---
+amso"delayNY@"nowN��̇2"A"2 wins main pot (800) with (Straight, five to ace).owN�� A":Player 6 wins main pot (800) with (Straight, five to ace).��!A":B��Ž|`�B@0D	;	 	-���3Player 7 wins main pot (360) with (One pair, aces).nowN�333�!A"`�B@���������������������������M:��1,H�A:��1,�#,81��53|{"seq":95,"tDiff":1,"data":{"pid":"PLAY_CLEAR_INFO"}}333�xA"@�61|{"seq":96,"tDiff":0,"data":{"seat":5,"pid":"CO_DEALER_SEAT"}}3=
+�https://games.ignitioncasino.eu/pokerapi/cash/buyin-00:B�0Ž{��?������������������������imerType":B��Ž{`�B@4,���:B�`Žy�`�B@r	�D	v	t	
+
+--- [wins main pot] at 0x3a42be0d ---
+�h,�=��h,p���h,���*,�;���`V;xB:-00:B°Ž=O�o"error0"idI�{clear"paramso"timerIdI�"	timerType"���"#setImmediate$0.9855965539364658$389-���3 wins main pot (802) with (Three of a kind, kings).�D!A"@.4��"A"���o"error0"idI�{clear"paramso"timerIdI�"	timerType"����m@:������������������������`V;xB:-00`V;xB:-00`V;xB:-00�!S:@|D`V;xB:-00`V;xB:-00@��,
+
+--- [wins main pot] at 0x3a42d6c5 ---
+;	-E	���:B�Ž)�`�B@������������������������imerType":B�Ž(�`�B@������������������������imerType",@�",`�@:��1,�|�;�1,�|�;`�1,�|�;��1,}�; )+��@:��������owN�333�"A";Player 5 wins main pot (802) with (Three of a kind, kings).�"A":BנŽ(_`�B@.4��#,@�",�A:��1,�|�;�1,(|�;`�1,�|�;��1,@|�; )+��@:���������+!A":B�@Ž'�`�B@r	�D	v	t	-E	���@�", A:��1,�|�;�1,}�;`�1,�|�;��1,0}�; )+��@:���������) X��AT!A":B��Ž%?�04���@�",HA:��1,�|�;�1,H}�;`�1,�|�;��1,`}�; )+��@:��������imerType"@�",pA:��1,x}�;�1,�}�;`�1,x}�;��1,�}�; )+��@:����������@�",�@:��1,��o;�1,�{�;`�1
+
+--- [wins side pot] at 0x3a420d85 ---
+":{"pid":"PLAY_STAGE_END_REQ"}}`�B@������������������������������o"error0"idI�{clear"paramso"timerIdI�"	timerType"`��1,������1,��������������������6Player 5 wins side pot (1,360) with (One pair, nines).N���U�!A"`�B@������������������������Type". "A";�56|{"seq":91,"tDiff":0,"data":{"pid":"PLAY_STAGE_END_REQ"}}[2=��Xstatic/media/icons-poker-games-tables.0169d0f2.ttfrue@.4��O@.4��5[{"gameType":"cash","start":1776194522653,"total":0}]1<link rel=preload> uses an unsupported `as` value@�M:@�M:���"#setImmediate$0.9855965539364658$3
+
+
+================================================================================
+REGION: 0x3a464000 (14 fragments)
+================================================================================
+
+--- [Result for hand] at 0x3a46676f ---
+�fno9ypc Desktop landscape.eu:Fm�Ź�?L�b�������������{"value":"1776135362714"}i��lobby.predicates.reverseVersion*��ngStorage-quickSeatSelection2C(pokerLobby.currentLanguage << Result for hand 4882007671 >> www.ignitioncasino.eu.wtxcdn.comDTue, 14 Apr 2026 02:36:05 GMT
+���Sat, 08 Mar 2036 07:55:27 GMT www.ignitioncasino.eu.wtxcdn.com www.ignitioncasino.eu.wtxcdn.com�-ISat, 08 Mar 2036 07:55:28 GMT www.ignitioncasino.eu.wtxcdn.com www.ignitioncasino.eu.wtxcdn.com www.ignitioncasino.eu.wtxcdn.comn�Tue, 14 Apr 2026 02:36:07 GMT www.
+
+--- [Result for hand] at 0x3a466e5f ---
+Y�animationContainer_ftgeyof��connectedContainer_f1t2my3h҆�center-bag-images-single-shadow:Fm�Ź�L�b�������������:Fn Ź��L�b�������������:Fn�Ź�L�b������������� << Result for hand 4882007483 >>:FoŹ��L�b������������� << Result for hand 4882007483 >>=�KA-webkit-search-decorationkip:Fs�Ź�?L�b�������������9static/media/out.2bf5de44.mp3/))static/media/won_S.f9da9a58.mp3static/media/won_M.48ef30dc.mp3static/media/won_L.62741c31.mp3�vurl(#A-khydR33g63PPNElF6eyGi)/d��url(#B-khydR33g63PPNElF6eyGi)ɵ(url(#C-khydR33g63PPNElF6eyGi)
+
+--- [Result for hand] at 0x3a466ebf ---
+҆�center-bag-images-single-shadow:Fm�Ź�L�b�������������:Fn Ź��L�b�������������:Fn�Ź�L�b������������� << Result for hand 4882007483 >>:FoŹ��L�b������������� << Result for hand 4882007483 >>=�KA-webkit-search-decorationkip:Fs�Ź�?L�b�������������9static/media/out.2bf5de44.mp3/))static/media/won_S.f9da9a58.mp3static/media/won_M.48ef30dc.mp3static/media/won_L.62741c31.mp3�vurl(#A-khydR33g63PPNElF6eyGi)/d��url(#B-khydR33g63PPNElF6eyGi)ɵ(url(#C-khydR33g63PPNElF6eyGi)IBurl(#D-khydR33g63PPNElF6eyGi)�Surl(#E-khydR33g63PPNElF6ey
+
+--- [Result for hand] at 0x3a46742f ---
+=�xicon-component icon-empty-seat� Kf1phzx2y Desktop landscapeu�7f1xp2z13 Desktop landscapeseat�1�@u/:Ft�Ź�L�b��������������k�f1qbx4ty Desktop landscape << Result for hand 4882007671 >>�1�@:Ft�Ź�OL�b�������������u:Ft�Ź�L�b�������������u:FuŹ��L�b�������������u:FupŹ��L�b�������������uZ���L�������������us:Fw�Ź�L�b�������������L�b�������������u.3�.3�.3�.3�u����w/�
+�u QG�landscape f1jmqybh f1x351eq f45h << Result for hand 4882007572 >>�
+usePokerApiServiceGamesDomain
+
+--- [Result for hand] at 0x3a4676ff ---
+.3�.3�.3�.3�u����w/�
+�u QG�landscape f1jmqybh f1x351eq f45h << Result for hand 4882007572 >>�
+usePokerApiServiceGamesDomainwss://pkscb.ignitioncasino.eu:Fx@Ź���	_���us=�!https://www.ignitioncasino.eu/ << Result for hand 4882007572 >>�1�@u:FxpŹ��L�b�������������u:Fz Ź��L�b�������������u << Result for hand 4882007442 >> ��M2.4,3.5L0,8h5.9l-1-2.6L2.4,3.5z��translate(-584.584 -194.501)�/�translate(-56.471 -313.061) f45h�f1ay1w8p rightPlayer notZone79��animatable-22_animation-195u << Result for han
+
+--- [Result for hand] at 0x3a4677ef ---
+QG�landscape f1jmqybh f1x351eq f45h << Result for hand 4882007572 >>�
+usePokerApiServiceGamesDomainwss://pkscb.ignitioncasino.eu:Fx@Ź���	_���us=�!https://www.ignitioncasino.eu/ << Result for hand 4882007572 >>�1�@u:FxpŹ��L�b�������������u:Fz Ź��L�b�������������u << Result for hand 4882007442 >> ��M2.4,3.5L0,8h5.9l-1-2.6L2.4,3.5z��translate(-584.584 -194.501)�/�translate(-56.471 -313.061) f45h�f1ay1w8p rightPlayer notZone79��animatable-22_animation-195u << Result for hand 4882007442 >>�1�@:Fz�Ź�L�b�������������u45h����xt<
+
+--- [Result for hand] at 0x3a4678af ---
+@Ź���	_���us=�!https://www.ignitioncasino.eu/ << Result for hand 4882007572 >>�1�@u:FxpŹ��L�b�������������u:Fz Ź��L�b�������������u << Result for hand 4882007442 >> ��M2.4,3.5L0,8h5.9l-1-2.6L2.4,3.5z��translate(-584.584 -194.501)�/�translate(-56.471 -313.061) f45h�f1ay1w8p rightPlayer notZone79��animatable-22_animation-195u << Result for hand 4882007442 >>�1�@:Fz�Ź�L�b�������������u45h����xt<u�����2tddu����xt<u:F{@Ź��L�b������������������2tddu:F|`Ź��L�b������������� L��transition: padding-right 2
+
+--- [Result for hand] at 0x3a4679cf ---
+<< Result for hand 4882007442 >> ��M2.4,3.5L0,8h5.9l-1-2.6L2.4,3.5z��translate(-584.584 -194.501)�/�translate(-56.471 -313.061) f45h�f1ay1w8p rightPlayer notZone79��animatable-22_animation-195u << Result for hand 4882007442 >>�1�@:Fz�Ź�L�b�������������u45h����xt<u�����2tddu����xt<u:F{@Ź��L�b������������������2tddu:F|`Ź��L�b������������� L��transition: padding-right 280ms;=
+�color: rgb(255, 255, 255);�����2tddu����xt<uL�b�������������u:F~pŹ���2tddL�b�������������uWhat will you do nex
+
+--- [Result for hand] at 0x3a467f9f ---
+�Ź�_L�b�������������uom:F�Ź}��	_���usom��������Y���ucom�1�@�@u@.com����L���������������us << Result for hand 4882007628 >>��	https://games.ignitioncasino.eum����L��2������������u-8m��������Y��� << Result for hand 4882007628 >>�1�@msom� 
+u�	ms��b���-ucomL�b�������������ucom << Result for hand 4882007735 >>j�:,us��	_���como��f1ko9lm5 Desktop landscapem:F��Ź}?L�b��������������animatable-27_animation-192;msom2�animatable-26_animation-191usom�
+�Tue, 17 Oct 2023 13:08:20 GMTcom
+
+--- [Result for hand] at 0x3a46805f ---
+�@u@.com����L���������������us << Result for hand 4882007628 >>��	https://games.ignitioncasino.eum����L��2������������u-8m��������Y��� << Result for hand 4882007628 >>�1�@msom� 
+u�	ms��b���-ucomL�b�������������ucom << Result for hand 4882007735 >>j�:,us��	_���como��f1ko9lm5 Desktop landscapem:F��Ź}?L�b��������������animatable-27_animation-192;msom2�animatable-26_animation-191usom�
+�Tue, 17 Oct 2023 13:08:20 GMTcom:F� Ź|�L�b�������������om;!�document-register-element-a.com:F�PŹv�L�b�������������s
+
+--- [Result for hand] at 0x3a46814f ---
+�����Y��� << Result for hand 4882007628 >>�1�@msom� 
+u�	ms��b���-ucomL�b�������������ucom << Result for hand 4882007735 >>j�:,us��	_���como��f1ko9lm5 Desktop landscapem:F��Ź}?L�b��������������animatable-27_animation-192;msom2�animatable-26_animation-191usom�
+�Tue, 17 Oct 2023 13:08:20 GMTcom:F� Ź|�L�b�������������om;!�document-register-element-a.com:F�PŹv�L�b�������������s�webpackChunkcasino_mini_gamescom=��gs-casino-minigames-widgetusucom/}UGS-CASINO-MINIGAMES-WIDGETno.eu=E�viframe-lobby-service-gatewayf
+
+--- [Result for hand] at 0x3a46943f ---
+������:F��Źl_xt<u:F��Źl/�2tddu:F�Źk�L�b�������������:F�`Źk�L�b������������� << Result for hand 4882007531 >>:F�PŹj�L�b���������������Tue, 14 Apr 2026 04:01:21 GMT << Result for hand 4882007531 >>��PMon, 23 Mar 2026 12:45:05 GMT:F��Źj����9�1�@um}Qf1x2n444 standard Desktopu:F�Źi�b���-u:F�@Źi��b��@)T:F�pŹi��b��@)u:F��Źi/� 
+u�	 �a�landscape f1jmqybh f169eucp f45h:F�Źh�L�b�������������u:F�0Źh�L�b�������������u:F��Źho�2tdd
+
+--- [Result for hand] at 0x3a4694ff ---
+Źk�L�b�������������:F�`Źk�L�b������������� << Result for hand 4882007531 >>:F�PŹj�L�b���������������Tue, 14 Apr 2026 04:01:21 GMT << Result for hand 4882007531 >>��PMon, 23 Mar 2026 12:45:05 GMT:F��Źj����9�1�@um}Qf1x2n444 standard Desktopu:F�Źi�b���-u:F�@Źi��b��@)T:F�pŹi��b��@)u:F��Źi/� 
+u�	 �a�landscape f1jmqybh f169eucp f45h:F�Źh�L�b�������������u:F�0Źh�L�b�������������u:F��Źho�2tdd�#Tue, 14 Apr 2026 18:52:02 GMT/:F��Źh?L�b�������������:F�PŹg�L�b�������������us@`�����@@@@
+
+--- [Result for hand] at 0x3a46adbf ---
+�f�f1xn5hoc Desktop landscapeu:F��ŹSL�b�������������u:F� ŹR�j�:,:F�PŹR��	_���:F��ŹRL�b�������������:F��ŹRL�b������������� << Result for hand 4882007735 >>:F�ŹQ�L�b�������������u:F�@ŹQ�}O�����:F��ŹQ_L�b��������������v5f1mqnd8f Desktop landscapeu:F��ŹQ/L�b�������������u:F�ŹP�L�b�������������:F�0ŹP�j�:,:F�`ŹP�xt<:F��ŹPo�b��@)u:F��ŹP?�b��@)u:F��ŹP�b���-u:F� ŹO�����9u:F�PŹO�L�b�������������u:F��ŹOj�:,u:F��ŹOO6�Ghttps://www.ignitioncasino.eu:F��ŹO
+
+
+================================================================================
+REGION: 0x3a4dc000 (9 fragments)
+================================================================================
+
+--- [wins main pot] at 0x3a4e048d ---
+ple-icon-180x180.pngile)=��./branded/favicons/apple-icon-152x152.pngile)=	R�./branded/favicons/apple-icon-144x144.png)=ڏ�./branded/favicons/apple-icon-120x120.pngfile)=z>./branded/favicons/apple-icon-114x114.pngfile. wins main pot (1,250) with (One pair, kings).+=f5static/media/sfx-cards-reveal2.fe6c5770.mp3+=���static/media/sfx-cards-winning.1157ba02.mp3.=�1static/media/sfx-chips-bet-all-in.47b6957c.mp3-=6ϭstatic/media/sfx-chips-to-center.76b64b99.mp30=��bstatic/media/sfx-jackpot-bounceback.0dd34994.mp3-=C��static/media/sfx-jackpot-default.0832f7ac.mp3.=��ystatic/
+
+--- [wins main pot] at 0x3a4e0c0d ---
+ation.644796ae.atlas-=uiTstatic/media/mko-animation.c76c1690.json-file-=�,�static/media/pko-animation.42a2dc78.json-file)=���static/media/pko-animation.af6a4b31.atlas)�(Prc-slider-tooltip-zoom-down-appear-activePreFCPP- wins main pot (2,446) with (One pair, aces).�.You need to enable JavaScript to run this app.0{"value":"8d310ea7-6c67-4de2-838a-43930ac9026b"}, wins main pot (804) with (Flush, ace high).0
+?% Blink serialized form state version 10 
+=&)You have successfully added 120 in chips./=�y�static/media/frame-corner-top-left.9ac0c1bb.svg0=��static/me
+
+--- [wins main pot] at 0x3a4e0ccd ---
+ation.af6a4b31.atlas)�(Prc-slider-tooltip-zoom-down-appear-activePreFCPP- wins main pot (2,446) with (One pair, aces).�.You need to enable JavaScript to run this app.0{"value":"8d310ea7-6c67-4de2-838a-43930ac9026b"}, wins main pot (804) with (Flush, ace high).0
+?% Blink serialized form state version 10 
+=&)You have successfully added 120 in chips./=�y�static/media/frame-corner-top-left.9ac0c1bb.svg0=��static/media/frame-corner-top-right.c3ef276f.svg��E��t��E���H2����_)��<�<A��@@@@@@@@. wins side pot (1,360) with (One pair, nines).:N�ű�?�
+
+--- [wins main pot] at 0x3a4e220d ---
+N���yA��XA
+�AvA�AvA�Y>��A�AvA�AvA�AvA�Av�)You have successfully added 120 in chips.A�Av�:N!�ű�?�A�AvA�AvA�Av��AvA�AvA�AvA�AvA�Av�:N"�ű��A�AvA�AvA�Av��AvA�AvA�AvA�AvA�Av�+ wins main pot (360) with (One pair, aces).v�+n_transition: transform 245ms, opacity 245ms;�A:N#ű���A�AvA�AvA�Av��AvA�AvA�AvA�AvA�Av�@@($�@@@@/�J�:N#�ű�?XA
+�AvA�AvA��A��A�AvA�AvA�AvA�Av���<B��XA
+�AvA�AvA��A��A�AvA�AvA�AvA�Av���<B��A�AvA�AvA�Av��AvA�AvA�AvA�AvA�Av�:N$ű���A
+�AvA�AvA�Y>�PB�AvA�AvA�AvA�Av�:N$�ű�A�AvA�AvA�Av��AvA
+�AvA�AvA
+
+--- [wins side pot] at 0x3a4e0e8d ---
+added 120 in chips./=�y�static/media/frame-corner-top-left.9ac0c1bb.svg0=��static/media/frame-corner-top-right.c3ef276f.svg��E��t��E���H2����_)��<�<A��@@@@@@@@. wins side pot (1,360) with (One pair, nines).:N�ű�?�A�AvA�AvA�Av��AvA�AvA�AvA�AvA�Av�.9static/media/sfx-chips-bet-all-in.47b6957c.mp3-9static/media/sfx-chips-to-center.76b64b99.mp3-9static/media/sfx-1chip-to-player.fd76a54d.mp3+9static/media/sfx-cards-reveal1.50d9763b.mp3+9static/media/sfx-cards-reveal2.fe6c5770.mp3-9static/media/sfx-cards-deal-flop.18736e50.mp3-9static/media/sfx-cards
+
+--- [successfully added] at 0x3a4e0d55 ---
+One pair, aces).�.You need to enable JavaScript to run this app.0{"value":"8d310ea7-6c67-4de2-838a-43930ac9026b"}, wins main pot (804) with (Flush, ace high).0
+?% Blink serialized form state version 10 
+=&)You have successfully added 120 in chips./=�y�static/media/frame-corner-top-left.9ac0c1bb.svg0=��static/media/frame-corner-top-right.c3ef276f.svg��E��t��E���H2����_)��<�<A��@@@@@@@@. wins side pot (1,360) with (One pair, nines).:N�ű�?�A�AvA�AvA�Av��AvA�AvA�AvA�AvA�Av�.9static/media/sfx-chips-bet-all-in.47b6957c.mp3-9static/media/sfx
+
+--- [successfully added] at 0x3a4e1b15 ---
+c4d0d.json-file,+�n41|8e679c89-c7a3-4e2a-bfdf-b75befaa85e8|0|X|0You're connected to our server. Enjoy your game.*3UpreferencesPokerGame-580206345019-36799379:N!�ű��A�AvA�AvA�Av��AvA�AvA�AvA�AvA�Av�)You have successfully added 120 in chips.)You have successfully added 120 in chips.@�����`	@@@@````@������@@@@�������.�'43|{"seq":0,"tDiff":0,"data":{"gid":"Joined"}}A
+AAA
+AAA,9�X6static/media/flush-spades.8b4756a1.json-file,9b�ostatic/media/bubble-burst.7bea5cc2.json-file A
+ A A A
+ A A A.=���./static/media/bkg-table-green-ls.473eaf70.pngA
+
+
+--- [successfully added] at 0x3a4e1b55 ---
+5befaa85e8|0|X|0You're connected to our server. Enjoy your game.*3UpreferencesPokerGame-580206345019-36799379:N!�ű��A�AvA�AvA�Av��AvA�AvA�AvA�AvA�Av�)You have successfully added 120 in chips.)You have successfully added 120 in chips.@�����`	@@@@````@������@@@@�������.�'43|{"seq":0,"tDiff":0,"data":{"gid":"Joined"}}A
+AAA
+AAA,9�X6static/media/flush-spades.8b4756a1.json-file,9b�ostatic/media/bubble-burst.7bea5cc2.json-file A
+ A A A
+ A A A.=���./static/media/bkg-table-green-ls.473eaf70.pngA
+AAA
+AAAA
+AAA
+AAAA
+AAA
+AAAA
+AAA
+
+
+--- [successfully added] at 0x3a4e2155 ---
+�"�	@@($�@@@@x���@@($�@@@@���@@($�@@@@N���yA��XA
+�AvA�AvA�Y>��A�AvA�AvA�AvA�Av�)You have successfully added 120 in chips.A�Av�:N!�ű�?�A�AvA�AvA�Av��AvA�AvA�AvA�AvA�Av�:N"�ű��A�AvA�AvA�Av��AvA�AvA�AvA�AvA�Av�+ wins main pot (360) with (One pair, aces).v�+n_transition: transform 245ms, opacity 245ms;�A:N#ű���A�AvA�AvA�Av��AvA�AvA�AvA�AvA�Av�@@($�@@@@/�J�:N#�ű�?XA
+�AvA�AvA��A��A�AvA�AvA�AvA�Av���<B��XA
+�AvA�AvA��A��A�AvA�AvA�AvA�Av���<B��A�AvA�AvA�Av��AvA�AvA�AvA�AvA�Av�:N$ű���A
+�AvA�AvA�Y>�P
+
+
+================================================================================
+REGION: 0x46600000 (7 fragments)
+================================================================================
+
+--- [Result for hand] at 0x46608385 ---
+%,D%,D%,D%,Da	,D�! `Fcard1�,D landscape f1jmqybh f169eucp f45h�
+,D�=�KwaX=,D=,DQ�`FM,Di,De�`Fu�`FZ��O�ic�M,D��`Fq�`F�a^U=,D=,D��`Fa4bF�4bF	=aF��46=,D�<aF],D"](DY,DY,DY,DY,DY,DY,DY,DY,DY,DY,DY,DY,DY,DY,DY,DY,D�,D�**<< Result for hand 4882007572 >>**
+
+**Player 5** wins main pot (232) with (Two pair, tens and fives).
+
+
+~~~cardlist
+["Spades10", "Diamonds10", "Spades5", "Diamonds5", "SpadesJ"]
+~~~
+�i&=,D=,D�E�W!��W�i&=,D=,D�E�W	��Wa	,D!^`Fu,Da	,Da�`Fu,D,a	,D}�`Fu,D,a	,D��`Fu,D.a	,D��`Fu,D0a	,Dф`Fu,D
+2a	,D�`Fu,D6a	,D	�`Fu,D8a	,D%�`Fu
+
+--- [Result for hand] at 0x466289ad ---
+�"=J���Y=,D=,D%,D	E�I	E�In�%�G�WM��%%,D%,D�;�<�;�<�F0%,D%,D%,D%,D%,Dap�%M,D	,D	,DM,Dp	,D	,Da	,D��PbFe,De��=�+46=,D=,D�9<��� �~^���4�46=,D]�~^�,Dcard40a	,D !�bF
+�,D�**<< Result for hand 4882007483 >>**
+
+**Player 5** wins main pot (2,446) with (One pair, aces).
+
+
+~~~cardlist
+["HeartsAce", "ClubsAce", "HeartsQ", "Clubs10", "Diamonds8"]
+~~~
+�
+,D�
+,D),D}�/����A,D5�bF{bFK�>J�56=,D=,D�ObF},Dq
+�@5��[�laX=,D=,D��`F�56=,D=,DU�`F�
+,D%�bF!,DppY��60i!,D	,D��6!,D-#qY��6�!,D�qY��6�c!,D	,D��6!,D	,D��6!,D	,D��6!,D	,D��6!,DQ!,D��6!,D�rY��6��
+
+--- [Result for hand] at 0x4662e3f5 ---
+ut/},D��`F!1,D},D��`F!1,D},D��`F!1,D},DU�`F!1,D},DA�`F!1,D},Da aF!1,D�,D/game/},D0�AaF!1,D},D0�AaF!1,D},D5�aF!1,D},D!�aF!1,D},D��aF!1,D},D��aF!1,D�,D/game/�,D�**<< Result for hand 4882007671 >>**
+
+**Player 5** wins side pot (1,360) with (One pair, nines).
+
+
+~~~cardlist
+["Spades9", "Diamonds9", "Clubs8", "Hearts6", "Hearts4"]
+~~~
+��aX=,D=,D��9��913�}�9%,DnB��9M,DM,DM,DM,D��46=,D}�9T66}��@��5K��*$�,D"��������	,D	,D	,D	,D	,D	,D	,D	,D	,D	,D	,D	,D�,D"��������	,D	,D	,D	,D	,D	,D	,D	,D	,D	,D	,D	,DelaX=,D=,D!�`Fi,DY�_=��9ml*$�,D"��������	,D	,
+
+--- [wins main pot] at 0x466083b3 ---
+�,D landscape f1jmqybh f169eucp f45h�
+,D�=�KwaX=,D=,DQ�`FM,Di,De�`Fu�`FZ��O�ic�M,D��`Fq�`F�a^U=,D=,D��`Fa4bF�4bF	=aF��46=,D�<aF],D"](DY,DY,DY,DY,DY,DY,DY,DY,DY,DY,DY,DY,DY,DY,DY,DY,D�,D�**<< Result for hand 4882007572 >>**
+
+**Player 5** wins main pot (232) with (Two pair, tens and fives).
+
+
+~~~cardlist
+["Spades10", "Diamonds10", "Spades5", "Diamonds5", "SpadesJ"]
+~~~
+�i&=,D=,D�E�W!��W�i&=,D=,D�E�W	��Wa	,D!^`Fu,Da	,Da�`Fu,D,a	,D}�`Fu,D,a	,D��`Fu,D.a	,D��`Fu,D0a	,Dф`Fu,D
+2a	,D�`Fu,D6a	,D	�`Fu,D8a	,D%�`Fu,D:a	,DA�`Fu,D*0�paX=
+
+--- [wins main pot] at 0x466289db ---
+%�G�WM��%%,D%,D�;�<�;�<�F0%,D%,D%,D%,D%,Dap�%M,D	,D	,DM,Dp	,D	,Da	,D��PbFe,De��=�+46=,D=,D�9<��� �~^���4�46=,D]�~^�,Dcard40a	,D !�bF
+�,D�**<< Result for hand 4882007483 >>**
+
+**Player 5** wins main pot (2,446) with (One pair, aces).
+
+
+~~~cardlist
+["HeartsAce", "ClubsAce", "HeartsQ", "Clubs10", "Diamonds8"]
+~~~
+�
+,D�
+,D),D}�/����A,D5�bF{bFK�>J�56=,D=,D�ObF},Dq
+�@5��[�laX=,D=,D��`F�56=,D=,DU�`F�
+,D%�bF!,DppY��60i!,D	,D��6!,D-#qY��6�!,D�qY��6�c!,D	,D��6!,D	,D��6!,D	,D��6!,D	,D��6!,DQ!,D��6!,D�rY��6��#!,DQ!,D��6!,DQ!,D��6!,D	,D
+
+--- [wins side pot] at 0x4662e423 ---
+D��`F!1,D},DU�`F!1,D},DA�`F!1,D},Da aF!1,D�,D/game/},D0�AaF!1,D},D0�AaF!1,D},D5�aF!1,D},D!�aF!1,D},D��aF!1,D},D��aF!1,D�,D/game/�,D�**<< Result for hand 4882007671 >>**
+
+**Player 5** wins side pot (1,360) with (One pair, nines).
+
+
+~~~cardlist
+["Spades9", "Diamonds9", "Clubs8", "Hearts6", "Hearts4"]
+~~~
+��aX=,D=,D��9��913�}�9%,DnB��9M,DM,DM,DM,D��46=,D}�9T66}��@��5K��*$�,D"��������	,D	,D	,D	,D	,D	,D	,D	,D	,D	,D	,D	,D�,D"��������	,D	,D	,D	,D	,D	,D	,D	,D	,D	,D	,D	,DelaX=,D=,D!�`Fi,DY�_=��9ml*$�,D"��������	,D	,D	,D	,D	,D	,D	,D	,D	,D	,D	,D	,D�,
+
+--- [TURN] at 0x4660b084 ---
+CHAR_UPPERCASE_CM,DS�CHAR_UPPERCASE_EM,D.�$CHAR_DOTM,DN��CHAR_FORWARD_SLASHM,DVzHCHAR_BACKWARD_SLASHM,DzB`CHAR_VERTICAL_LINEM,D.x�`
+CHAR_COLONM,D�7��CHAR_QUESTION_MARKM,DD�CHAR_UNDERSCOREM,D&�CHAR_LINE_FEEDM,Dz���CHAR_CARRIAGE_RETURNM,D���CHAR_TABM,D��r�CHAR_FORM_FEEDM,D�L�CHAR_EXCLAMATION_MARKM,D�H��	CHAR_HASHM,D�Ӧ6
+CHAR_SPACEM,DN��oCHAR_NO_BREAK_SPACEM,D��CHAR_ZERO_WIDTH_NOBREAK_SPACEM,D¢��CHAR_LEFT_SQUARE_BRACKETM,D"}��CHAR_RIGHT_SQUARE_BRACKETM,D�*g�CHAR_LEFT_ANGLE_BRACKETM,D�.HCHAR_RIGHT_ANGLE_BRACKETM,D��}CHAR_LEFT_CURLY_BRACKETM,D�
+
+
+================================================================================
+REGION: 0x478c0000 (1 fragments)
+================================================================================
+
+--- [wins main pot] at 0x478ffc9d ---
+,D�͌GPM,D	,Di,DM,D�'�Y	,D�,Dcard33a	,D�x�G�,D�qAtV>Z-�Y����	,De�/�i&=,D=,D�)�k33�46=,D�d�GM,D&Q�8MODULE_TIMER�,Df1n5gqte f169eucp f45h!,D�AX(>$<!,D�AX(?$<s!,D�AX(@$<!,D	,DA$<�,D�**Player 7** wins main pot (360) with (One pair, aces).
+
+
+~~~cardlist
+["HeartsAce", "ClubsAce", "Spades9", "Clubs8", "Hearts6"]
+~~~
+�
+,D�
+,D�,D�qA�
+l��`F����	,D��`F�,D<transform 244.99999999999997ms, opacity 244.99999999999997ms],D=��L%,D�,DdpW
+$
+!�`F����!�`F��`F�
+,D���N�,DdpW�01A,D����	,Dݓ/�
+,D-��N�,D�qA����A,D����	,D݌bFa,D���N�,D�,DdpW�12A,D����	,Dݓ/Ui�4=,D=,D_�G�
+
+
+
+================================================================================
+REGION: 0x4f804000 (7 fragments)
+================================================================================
+
+--- [ bets ] at 0x4fb58d8c ---
+hit the Royal Flush Jackpot! Please wait while we verify the hand and make sure no other jackpot has been hit.","221":"Sorry! The current hand is on hold due to an unexpected database issue and will resume once the issue is resolved. If the event of a long delay, the hand may be cancelled, and your bets returned to your account. Thanks for understanding.","250":"We apologize that today\u2019s tournament was cancelled; it doesn\u2019t happen often, and we\u2019re sorry to disappoint you. Tournament Cancellation Policy is in effect, and your account has been credited. Please contact customer ser
+
+--- [TURN] at 0x4fba6e59 ---
+terlalu rendah; silakan lakukan deposit dengan kasir.","21":"Sepertinya Anda melihat atau bermain meja ini dari perangkat lain. Silakan pilih meja lain.","22":"Ups! ID masuk Anda tidak valid. Koneksi akan ditutup.","23":"Ini adalah kelompok turnamen privat. Untuk bergabung, pergi ke LOBI UTAMA &gt; TURNAMEN &gt; GABUNG KELOMPOK TURNAMEN PRIVAT lalu daftar.","24":"Uang meja Anda telah melampaui batas maksimum.","25":"Ups! Meja yang Anda pilih terhubung ke server yang akan segera ditutup.","26":"Ups! Meja yang Anda pilih terhubung ke server yang akan segera ditutup.","27":"Permainan di meja Anda
+
+--- [TURN] at 0x4fba6e77 ---
+n deposit dengan kasir.","21":"Sepertinya Anda melihat atau bermain meja ini dari perangkat lain. Silakan pilih meja lain.","22":"Ups! ID masuk Anda tidak valid. Koneksi akan ditutup.","23":"Ini adalah kelompok turnamen privat. Untuk bergabung, pergi ke LOBI UTAMA &gt; TURNAMEN &gt; GABUNG KELOMPOK TURNAMEN PRIVAT lalu daftar.","24":"Uang meja Anda telah melampaui batas maksimum.","25":"Ups! Meja yang Anda pilih terhubung ke server yang akan segera ditutup.","26":"Ups! Meja yang Anda pilih terhubung ke server yang akan segera ditutup.","27":"Permainan di meja Anda sebelumnya belum selesai. Har
+
+--- [RIVER] at 0x4f804673 ---
+op=8]="PreFlop",e[e.Flop=16]="Flop",e[e.Turn=32]="Turn",e[e.River=64]="River",e[e.CO_STATE_BET_HOLECARD=128]="CO_STATE_BET_HOLECARD",e[e.CO_STATE_BET_FOURTH=256]="CO_STATE_BET_FOURTH",e[e.CO_STATE_BET_FIFTH=512]="CO_STATE_BET_FIFTH",e[e.CO_STATE_BET_SIXTH=1024]="CO_STATE_BET_SIXTH",e[e.CO_STATE_BET_RIVER=2048]="CO_STATE_BET_RIVER",e[e.CO_STATE_DRAW_FIRST=4096]="CO_STATE_DRAW_FIRST",e[e.CO_STATE_DRAW_SECOND=8192]="CO_STATE_DRAW_SECOND",e[e.CO_STATE_DRAW_THIRD=16384]="CO_STATE_DRAW_THIRD",e[e.ShowAndMuckCards=32768]="ShowAndMuckCards",e[e.TournamentShowAndMuckCards=4096]="TournamentShowAndMuckCa
+
+--- [RIVER] at 0x4f80468d ---
+6]="Flop",e[e.Turn=32]="Turn",e[e.River=64]="River",e[e.CO_STATE_BET_HOLECARD=128]="CO_STATE_BET_HOLECARD",e[e.CO_STATE_BET_FOURTH=256]="CO_STATE_BET_FOURTH",e[e.CO_STATE_BET_FIFTH=512]="CO_STATE_BET_FIFTH",e[e.CO_STATE_BET_SIXTH=1024]="CO_STATE_BET_SIXTH",e[e.CO_STATE_BET_RIVER=2048]="CO_STATE_BET_RIVER",e[e.CO_STATE_DRAW_FIRST=4096]="CO_STATE_DRAW_FIRST",e[e.CO_STATE_DRAW_SECOND=8192]="CO_STATE_DRAW_SECOND",e[e.CO_STATE_DRAW_THIRD=16384]="CO_STATE_DRAW_THIRD",e[e.ShowAndMuckCards=32768]="ShowAndMuckCards",e[e.TournamentShowAndMuckCards=4096]="TournamentShowAndMuckCards",e[e.GivingChipsToWinn
+
+--- [RIVER] at 0x4f80499c ---
+op=8]="PreFlop",e[e.Flop=16]="Flop",e[e.Turn=32]="Turn",e[e.River=64]="River",e[e.CO_STATE_BET_HOLECARD=128]="CO_STATE_BET_HOLECARD",e[e.CO_STATE_BET_FOURTH=256]="CO_STATE_BET_FOURTH",e[e.CO_STATE_BET_FIFTH=512]="CO_STATE_BET_FIFTH",e[e.CO_STATE_BET_SIXTH=1024]="CO_STATE_BET_SIXTH",e[e.CO_STATE_BET_RIVER=2048]="CO_STATE_BET_RIVER",e[e.CO_STATE_SHOW=4096]="CO_STATE_SHOW",e[e.GivingChipsToWinner=8192]="GivingChipsToWinner",e}({}),o=function(e){return e.AllIn="AllIn",e.AllInRaise="AllInRaise",e.Ante="Ante",e.Bet="Bet",e.BetRaise="BetRaise",e.BigBlind="BigBlind",e.Call="Call",e.CallAny="CallAny",e
+
+--- [RIVER] at 0x4f8049b6 ---
+6]="Flop",e[e.Turn=32]="Turn",e[e.River=64]="River",e[e.CO_STATE_BET_HOLECARD=128]="CO_STATE_BET_HOLECARD",e[e.CO_STATE_BET_FOURTH=256]="CO_STATE_BET_FOURTH",e[e.CO_STATE_BET_FIFTH=512]="CO_STATE_BET_FIFTH",e[e.CO_STATE_BET_SIXTH=1024]="CO_STATE_BET_SIXTH",e[e.CO_STATE_BET_RIVER=2048]="CO_STATE_BET_RIVER",e[e.CO_STATE_SHOW=4096]="CO_STATE_SHOW",e[e.GivingChipsToWinner=8192]="GivingChipsToWinner",e}({}),o=function(e){return e.AllIn="AllIn",e.AllInRaise="AllInRaise",e.Ante="Ante",e.Bet="Bet",e.BetRaise="BetRaise",e.BigBlind="BigBlind",e.Call="Call",e.CallAny="CallAny",e.Check="Check",e.CheckCall
+
+
+================================================================================
+REGION: 0x563c0000 (2 fragments)
+================================================================================
+
+--- [TURN] at 0x563e3127 ---
+silakan lakukan deposit dengan kasir.�,D[Sepertinya Anda melihat atau bermain meja ini dari perangkat lain. Silakan pilih meja lain.�,D5Ups! ID masuk Anda tidak valid. Koneksi akan ditutup.�,D�Ini adalah kelompok turnamen privat. Untuk bergabung, pergi ke LOBI UTAMA &gt; TURNAMEN &gt; GABUNG KELOMPOK TURNAMEN PRIVAT lalu daftar.�,D.Uang meja Anda telah melampaui batas maksimum.�,DGUps! Meja yang Anda pilih terhubung ke server yang akan segera ditutup.�,DGUps! Meja yang Anda pilih terhubung ke server yang akan segera ditutup.�,DMPermainan di meja Anda sebelumnya belum selesai. Harap tung
+
+--- [TURN] at 0x563e3145 ---
+kasir.�,D[Sepertinya Anda melihat atau bermain meja ini dari perangkat lain. Silakan pilih meja lain.�,D5Ups! ID masuk Anda tidak valid. Koneksi akan ditutup.�,D�Ini adalah kelompok turnamen privat. Untuk bergabung, pergi ke LOBI UTAMA &gt; TURNAMEN &gt; GABUNG KELOMPOK TURNAMEN PRIVAT lalu daftar.�,D.Uang meja Anda telah melampaui batas maksimum.�,DGUps! Meja yang Anda pilih terhubung ke server yang akan segera ditutup.�,DGUps! Meja yang Anda pilih terhubung ke server yang akan segera ditutup.�,DMPermainan di meja Anda sebelumnya belum selesai. Harap tunggu sampai selesai.�,DMaaf! An
+
+
+================================================================================
+REGION: 0x59900000 (1 fragments)
+================================================================================
+
+--- [ bets ] at 0x59900990 ---
+the hand and make sure no other jackpot has been hit.�,D�Sorry! The current hand is on hold due to an unexpected database issue and will resume once the issue is resolved. If the event of a long delay, the hand may be cancelled, and your bets returned to your account. Thanks for understanding.�,D�We apologize that today s tournament was cancelled; it doesn t happen often, and we re sorry to disappoint you. Tournament Cancellation Policy is in effect, and your account has been credited. Please contact customer service if you need more information.�,D�Sorry! You ve reached the maximum num
+
+
+================================================================================
+REGION: 0x59e40000 (2 fragments)
+================================================================================
+
+--- [Result for hand] at 0x59e4ffc9 ---
+,D=,D�i,D�}^���%=,D=,D�i,D��}^���%=,D=,D�i,D��}^���%=,D=,D�i,Du�}^���%=,D=,D�i,DE�}^���%=,D=,D�i,D�}^���%=,D=,D�i,D��}^���%=,D=,D�i,D��}^���%=,D=,D�i,D]�}^���%=,D=,D�i,D%�}^���%=,D=,D�i,D��}^���%=,D=,D�i,D��}^�,D�**<< Result for hand 4882007531 >>**
+
+**Player 5** wins main pot (804) with (Flush, ace high).
+
+
+~~~cardlist
+["HeartsAce", "Hearts10", "Hearts9", "Hearts8", "Hearts4"]
+~~~
+�,D$fd3b13d5-22d2-4375-a0c4-ec2628f5d2e7a	,DXm��Y���&	,Da	,D0���Y	,D	,D�
+,DT66ُ�Y�@4K�d�Y!��%�L��+_UT66ُ�Y�@4K�d�Y!��%�L��+_UT66ُ�Y�@4K�d�Y͗�%�L��+_UT66ُ�Y�@4K�d�Y͗
+
+--- [wins main pot] at 0x59e4fff7 ---
+%=,D=,D�i,D��}^���%=,D=,D�i,Du�}^���%=,D=,D�i,DE�}^���%=,D=,D�i,D�}^���%=,D=,D�i,D��}^���%=,D=,D�i,D��}^���%=,D=,D�i,D]�}^���%=,D=,D�i,D%�}^���%=,D=,D�i,D��}^���%=,D=,D�i,D��}^�,D�**<< Result for hand 4882007531 >>**
+
+**Player 5** wins main pot (804) with (Flush, ace high).
+
+
+~~~cardlist
+["HeartsAce", "Hearts10", "Hearts9", "Hearts8", "Hearts4"]
+~~~
+�,D$fd3b13d5-22d2-4375-a0c4-ec2628f5d2e7a	,DXm��Y���&	,Da	,D0���Y	,D	,D�
+,DT66ُ�Y�@4K�d�Y!��%�L��+_UT66ُ�Y�@4K�d�Y!��%�L��+_UT66ُ�Y�@4K�d�Y͗�%�L��+_UT66ُ�Y�@4K�d�Y͗�%�L��+_Ua	,D�-��Y�����+U%,DM,DM,D��Y
+
+
+================================================================================
+REGION: 0x5bf80000 (1 fragments)
+================================================================================
+
+--- [successfully added] at 0x5bf92d61 ---
+��[y�D���[=,DM��Y=,D=,D%,D%,D���[%,Da	,D(
+�[	,D	,D�,Dr0�sA�a	,D����[f1phzx2y Desktop landscape myPlayer�,DplayerContainer-6q��4�4�[=,D��46=,D�4�[�,Danimation-seat-6�,Dfukipjb Desktopa	,D(m��[�%�B�,D)You have successfully added 120 in chips.T66a�Y�@4K�O���[T66a�Y�@4K�O���[a	,D�u
+�[	,D	,D�	,Di,D	,D	,D�	,Di,D	,D	,D�	,Di,D	,D	,D�	,Di,D	,D	,Da	,D(I"�[#3756m3�)=,D=,D��!	,D	,D	,Da	,D(�[9+�[�?�@},D�/�[q1,D},D�/�[y�5},D�/�[y�5},D�/�[y�5},D}/�[y�5a	,Dx�[T66I}�@9��/�[e/�[M,D}t�[�,DGc#undefined%�D=,D=,DY�UM,D��[]�����������W��
+
+
+================================================================================
+REGION: 0x5e7c0000 (2 fragments)
+================================================================================
+
+--- [Result for hand] at 0x5e7fb921 ---
+yUP��[PPK�DPPo�DPP[#�EP��[P'FaXP�RDPNUP/R�KPOn�(P	,D	,D	,D	,D	,D	,D	,D	,D	,D	,D	,D	,D	,D	,D	,D	,D�
+,D�
+�G�,De,Dm��Y��ΑY�,DF]�[��0F
+Q]�[�o�5F�]�[��0F�]�[�p�5F�]�[��0F!^�[�,D�**<< Result for hand 4882007628 >>**
+
+**Player 6** wins main pot (800) with (Straight, five to ace).
+
+
+~~~cardlist
+["Hearts5", "Spades4", "Diamonds3", "Spades2", "ClubsAce"]
+~~~
+�
+,D�vS:q,D*^�H�}56�"46�,D5��@Q!,D�^a	,Dx��^�19�1]�1��1��1��1�	,DA,D	,D�
+,DI,Dqu�Y�HI,D
+qu�Y��H�,D���'Q!,D!w-OR!F�j6)��Y�f`X�c`X;v`X;v`X;v`X,D,D,D,D,D,D;v`X,D,D,D,D
+
+--- [wins main pot] at 0x5e7fb94f ---
+P[#�EP��[P'FaXP�RDPNUP/R�KPOn�(P	,D	,D	,D	,D	,D	,D	,D	,D	,D	,D	,D	,D	,D	,D	,D	,D�
+,D�
+�G�,De,Dm��Y��ΑY�,DF]�[��0F
+Q]�[�o�5F�]�[��0F�]�[�p�5F�]�[��0F!^�[�,D�**<< Result for hand 4882007628 >>**
+
+**Player 6** wins main pot (800) with (Straight, five to ace).
+
+
+~~~cardlist
+["Hearts5", "Spades4", "Diamonds3", "Spades2", "ClubsAce"]
+~~~
+�
+,D�vS:q,D*^�H�}56�"46�,D5��@Q!,D�^a	,Dx��^�19�1]�1��1��1��1�	,DA,D	,D�
+,DI,Dqu�Y�HI,D
+qu�Y��H�,D���'Q!,D!w-OR!F�j6)��Y�f`X�c`X;v`X;v`X;v`X,D,D,D,D,D,D;v`X,D,D,D,DI,D
+�_=K"56A,D	,D	,
+

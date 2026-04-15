@@ -1,0 +1,154 @@
+
+================================================================================
+REGION: 0x38480000 (3 fragments)
+================================================================================
+
+--- [TURN] at 0x3848f2c6 ---
+oryM�8�J�ERR_HTTP2_PAYLOAD_FORBIDDENa"�:/��`�)�:]*�:q�8M�8y
+�8M�8j.H�ERR_CRYPTO_INVALID_JWK�
+�8a"�:1!�p	2�:)-�:q�8M�8y
+�8M�8*d��;Cannot specify both "breakEvalOnSigint" and "eval" for REPLM�8�oޏERR_INVALID_REPL_INPUTM�8>M|�ERR_INVALID_RETURN_PROPERTYM�8�t�G!ERR_INVALID_RETURN_PROPERTY_VALUEM�8ηOERR_INVALID_RETURN_VALUEM�8FߒERR_INVALID_STATEM�8֔fInvalid state: %sa	�80)�H8M�8y
+�8a"�:1!�p1�(��6q�8M�8y
+�8!�8��6%�8a"�:/!��P�p�Z]*�:��6M�8y
+�8a"�:1!�
+	2�:���.!�6M�8y
+�8�H8a"�:1!�
+	2�:��H8!�6M�8y
+�8/�H8a"�:1!�@	2�:�H8
+
+--- [TURN] at 0x3848f2ee ---
+IDDENa"�:/��`�)�:]*�:q�8M�8y
+�8M�8j.H�ERR_CRYPTO_INVALID_JWK�
+�8a"�:1!�p	2�:)-�:q�8M�8y
+�8M�8*d��;Cannot specify both "breakEvalOnSigint" and "eval" for REPLM�8�oޏERR_INVALID_REPL_INPUTM�8>M|�ERR_INVALID_RETURN_PROPERTYM�8�t�G!ERR_INVALID_RETURN_PROPERTY_VALUEM�8ηOERR_INVALID_RETURN_VALUEM�8FߒERR_INVALID_STATEM�8֔fInvalid state: %sa	�80)�H8M�8y
+�8a"�:1!�p1�(��6q�8M�8y
+�8!�8��6%�8a"�:/!��P�p�Z]*�:��6M�8y
+�8a"�:1!�
+	2�:���.!�6M�8y
+�8�H8a"�:1!�
+	2�:��H8!�6M�8y
+�8/�H8a"�:1!�@	2�:�H8!�6M�8y
+�8a"�:#1!�
+	2�:��.
+
+--- [TURN] at 0x3848f31e ---
+�8j.H�ERR_CRYPTO_INVALID_JWK�
+�8a"�:1!�p	2�:)-�:q�8M�8y
+�8M�8*d��;Cannot specify both "breakEvalOnSigint" and "eval" for REPLM�8�oޏERR_INVALID_REPL_INPUTM�8>M|�ERR_INVALID_RETURN_PROPERTYM�8�t�G!ERR_INVALID_RETURN_PROPERTY_VALUEM�8ηOERR_INVALID_RETURN_VALUEM�8FߒERR_INVALID_STATEM�8֔fInvalid state: %sa	�80)�H8M�8y
+�8a"�:1!�p1�(��6q�8M�8y
+�8!�8��6%�8a"�:/!��P�p�Z]*�:��6M�8y
+�8a"�:1!�
+	2�:���.!�6M�8y
+�8�H8a"�:1!�
+	2�:��H8!�6M�8y
+�8/�H8a"�:1!�@	2�:�H8!�6M�8y
+�8a"�:#1!�
+	2�:��.a�6M�8y
+�8��H8q�8�6�ZW�H8ɔ�67��.a"�:#
+
+
+================================================================================
+REGION: 0x3fe40000 (1 fragments)
+================================================================================
+
+--- [ checks] at 0x3fe40914 ---
+invalid HTTP headersshow stack traces on promise initialization and resolutionrun tests whose name do not match this regular expressionDisable inspector thread to be listening for SIGUSR1 signaladditional user conditions for conditional exports and importsRun with extra debug checks for memory leaks in Node.js itselfadditional user conditions for conditional exports and importsDisable inspector thread to be listening for SIGUSR1 signalrun tests whose name do not match this regular expressionuse an insecure HTTP parser that accepts invalid HTTP headersexperimental ES Module import.meta.resolve(
+
+
+================================================================================
+REGION: 0x3fe54000 (2 fragments)
+================================================================================
+
+--- [ checks] at 0x3fe5448c ---
+) and 'no-node-modules' (excluding usage from the node_modules folder)Generate heap snapshots whenever V8 is approaching the heap limit. No more than the specified number of heap snapshots will be generated.Disable trap-handler-based WebAssembly bound checks. V8 will insert inline bound checks when compiling WebAssembly which may slow down performance.Generate heap snapshots whenever V8 is approaching the heap limit. No more than the specified number of heap snapshots will be generated.Print access to require(esm). Options are 'all' (print all usage) and 'no-node-modules' (excluding usage from
+
+--- [ checks] at 0x3fe544b0 ---
+sage from the node_modules folder)Generate heap snapshots whenever V8 is approaching the heap limit. No more than the specified number of heap snapshots will be generated.Disable trap-handler-based WebAssembly bound checks. V8 will insert inline bound checks when compiling WebAssembly which may slow down performance.Generate heap snapshots whenever V8 is approaching the heap limit. No more than the specified number of heap snapshots will be generated.Print access to require(esm). Options are 'all' (print all usage) and 'no-node-modules' (excluding usage from the node_modules folder)--user-data
+
+
+================================================================================
+REGION: 0x3fe78000 (3 fragments)
+================================================================================
+
+--- [ checks] at 0x3fe785e7 ---
+?��?--experimental-wasm-modulesenable the permission systemg--experimental-permission@��?�/��!��? �?,�?,�?--experimental-repl-await--experimental-vm-modules--heapsnapshot-near-heap-limit���?6��) �? �?,�?,�?silence deprecation warningsdisable checks for async_hooks--force-async-hooks-checksdisable loading native addonssilence all process warnings--preserve-symlinks-mainrtGenerate V8 profiler output.��?�$�p�?���?��?��?launch test runner on startupspecify test runner concurrencyspecify test runner timeoutregenerate test snapshotse_job--experimental-test-coverageap--test-coverage-b
+
+--- [ checks] at 0x3fe7a2e7 ---
+I--network-family-autoselection--experimental-vm-modules--experimental-webstoragePIexperimental Web Storage API--experimental-require-module--experimental-json-modules--force-async-hooks-checksokssilence all process warningsexperimental node:sqlite moduledisable checks for async_hooks--heapsnapshot-near-heap-limit--experimental-repl-await--experimental-abortcontrollersilence deprecation warnings--experimental-detect-modulespecify test runner timeout--experimental-websocketIexperimental WebSocket API--experimental-transform-typeslaunch test runner on startup--experimental-strip-types--experimen
+
+--- [ checks] at 0x3fe7af47 ---
+tion--experimental-transform-types--enable-etw-stack-walking--trace-env-native-stack--experimental-top-level-await--report-exclude-network--experimental-default-type--experimental-test-isolation--force-async-hooks-checksoksset host:port for inspectordisable checks for async_hooks--experimental-shadow-realm--experimental-strip-types--report-uncaught-exceptionregenerate test snapshots--abort-on-uncaught-exceptioneexperimental node:sqlite module--test-coverage-branchesdonsdisable loading native addons--perf-prof-unwinding-infodisallow eval and friends--trace-env-native-stack--experimental-strip-t
+
+
+================================================================================
+REGION: 0x46888000 (1 fragments)
+================================================================================
+
+--- [TURN] at 0x4689ad09 ---
+�Rc.�$CHAR_DOT`\ RfN��CHAR_FORWARD_SLASH`^ RfVzHCHAR_BACKWARD_SLASH`� RfzB`CHAR_VERTICAL_LINE`�Rd.x�`
+CHAR_COLON`t Rf�7��CHAR_QUESTION_MARK`~ReD�CHAR_UNDERSCORE`�Re&�CHAR_LINE_FEED` Rfz���CHAR_CARRIAGE_RETURN`Rc���CHAR_TAB`Re��r�CHAR_FORM_FEED`$Rg�L�CHAR_EXCLAMATION_MARK`BRd�H��	CHAR_HASH`FRd�Ӧ6
+CHAR_SPACE`@ RfN��oCHAR_NO_BREAK_SPACE`@,Ri��CHAR_ZERO_WIDTH_NOBREAK_SPACE`��$Rg¢��CHAR_LEFT_SQUARE_BRACKET`�(Rh"}��CHAR_RIGHT_SQUARE_BRACKET`�$Rg�*g�CHAR_LEFT_ANGLE_BRACKET`x$Rg�.HCHAR_RIGHT_ANGLE_BRACKET`|$Rg��}CHAR_LEFT_CURLY_BRACKET`�
+
+
+================================================================================
+REGION: 0x46978000 (1 fragments)
+================================================================================
+
+--- [TURN] at 0x4697f301 ---
+Rf2AObjectDefineProperty,Rij�+ObjectPrototypeHasOwnPropertyRcʞ~�SafeSet(Rh�w�EStringPrototypeCharCodeAt$RgB`LStringPrototypeIncludes Rff|
+StringPrototypeSlice(Rh"�yYStringPrototypeStartsWith Rf��q�ERR_INVALID_ARG_TYPE0Rj�t�G!ERR_INVALID_RETURN_PROPERTY_VALUERe2�x	BuiltinModuleRe2��validateStringRb���XfsRd���L
+internalFSRbc �pathRe���pathToFileURLRe�k��fileURLToPath5	Re�2�QgetOptionValueRer��&setOwnPropertyRc�>inspectRd�؎
+lazyTmpdir�Rd"rK�URLCanParse Rf�qΝ_enableCompileCache Rf&�=C_getCompileCacheDirRe�b�realpathCache
+
+
+================================================================================
+REGION: 0x46a04000 (1 fragments)
+================================================================================
+
+--- [TURN] at 0x46a16c21 ---
+ssRc:��requireRd�E4�ArrayIsArrayI Rf���-SymbolAsyncIteratorRb���eosRe�ASymbolDisposeRb2���onceRdұ;destroyImplRc�M�fDuplexRd:��
+AbortError Rf�ΦaggregateTwoErrors Rf��q�ERR_INVALID_ARG_TYPE$RgηOERR_INVALID_RETURN_VALUERe��g�ERR_MISSING_ARGS Rf�JC�ERR_STREAM_DESTROYED(Rh2��nERR_STREAM_PREMATURE_CLOSEReb-|'validateFunction Rf&u{�validateAbortSignalRd��1^
+isIterableRd��5�
+isReadable Rf*"��isReadableNodeStreamRd��<�isNodeStream RfnHisTransformStreamRd���!isWebStreamRez2isReadableStream Rf!m�isReadableFinished��Rd
+*4Pas
+
+
+================================================================================
+REGION: 0x46b08000 (4 fragments)
+================================================================================
+
+--- [TURN] at 0x46b08239 ---
+fDArrayPrototypeFindIndex Rf�Ju�ArrayPrototypePush Rf����ArrayPrototypeSpliceRdv�}�ObjectAssignRd���hObjectFreeze(Rh"�yYStringPrototypeStartsWith9Re>.>1isAnyArrayBuffer Rf�G�isArrayBufferViewRe2�x	BuiltinModule0Rj�t�G!ERR_INVALID_RETURN_PROPERTY_VALUEReb-|'validateFunctionRdv��J
+isAbsoluteRe���pathToFileURLRe�k��fileURLToPathRd._�{resolveHooksRd�UM�	loadHooksRc��d�hookIdRd�>?�
+nextHookIdRd��S�ModuleHooksRd(�
+buildHooksReN���validateResolveRd>#�validateLoad RfJZ�|ModuleResolveContext Rf��.�ModuleLoadContextRc��Ldecoder{���
+
+--- [TURN] at 0x46b1e64f ---
+���ERR_INVALID_PACKAGE_TARGET� Rf����ERR_INVALID_PROTOCOL8Rl�e�{*Protocol "%s" not supported. Expected "%s"(Rh�82�ERR_INVALID_REPL_EVAL_CONFIGHRp*d��;Cannot specify both "breakEvalOnSigint" and "eval" for REPL$Rg�oޏERR_INVALID_REPL_INPUT(Rh>M|�ERR_INVALID_RETURN_PROPERTY�0Rj�t�G!ERR_INVALID_RETURN_PROPERTY_VALUE�$RgηOERR_INVALID_RETURN_VALUE RfFߒERR_INVALID_STATE Rf֔fInvalid state: %s(Rh��IERR_INVALID_SYNC_FORK_INPUT`QvRAsynchronous forks do not support Buffer, TypedArray, DataView or string input: %sReچ�	ERR_INVALID_THIS0Rj�"y	"Value of "this" must be of
+
+--- [TURN] at 0x46b1e67a ---
+���ERR_INVALID_PROTOCOL8Rl�e�{*Protocol "%s" not supported. Expected "%s"(Rh�82�ERR_INVALID_REPL_EVAL_CONFIGHRp*d��;Cannot specify both "breakEvalOnSigint" and "eval" for REPL$Rg�oޏERR_INVALID_REPL_INPUT(Rh>M|�ERR_INVALID_RETURN_PROPERTY�0Rj�t�G!ERR_INVALID_RETURN_PROPERTY_VALUE�$RgηOERR_INVALID_RETURN_VALUE RfFߒERR_INVALID_STATE Rf֔fInvalid state: %s(Rh��IERR_INVALID_SYNC_FORK_INPUT`QvRAsynchronous forks do not support Buffer, TypedArray, DataView or string input: %sReچ�	ERR_INVALID_THIS0Rj�"y	"Value of "this" must be of type %s RfVY�ERR_INVALID_TUPLE,Ri
+
+--- [TURN] at 0x46b1e6ad ---
+" not supported. Expected "%s"(Rh�82�ERR_INVALID_REPL_EVAL_CONFIGHRp*d��;Cannot specify both "breakEvalOnSigint" and "eval" for REPL$Rg�oޏERR_INVALID_REPL_INPUT(Rh>M|�ERR_INVALID_RETURN_PROPERTY�0Rj�t�G!ERR_INVALID_RETURN_PROPERTY_VALUE�$RgηOERR_INVALID_RETURN_VALUE RfFߒERR_INVALID_STATE Rf֔fInvalid state: %s(Rh��IERR_INVALID_SYNC_FORK_INPUT`QvRAsynchronous forks do not support Buffer, TypedArray, DataView or string input: %sReچ�	ERR_INVALID_THIS0Rj�"y	"Value of "this" must be of type %s RfVY�ERR_INVALID_TUPLE,Ri�'�%s must be an iterable %s tuple,Ri�G
+
+
+================================================================================
+REGION: 0x46c14000 (1 fragments)
+================================================================================
+
+--- [TURN] at 0x46c29870 ---
+_AslashedProtocolRd"ȴ2
+bindingUrlRe�2�QgetOptionValueRb�6�QUrlRe�g�protocolPatternRd���portPatternRd��E"hostPattern RfZO=KsimplePathPatternRe��hostnameMaxLenRd�Ӧ6
+CHAR_SPACERc���CHAR_TAB Rfz���CHAR_CARRIAGE_RETURNRe&�CHAR_LINE_FEED RfN��oCHAR_NO_BREAK_SPACE,Ri��CHAR_ZERO_WIDTH_NOBREAK_SPACERd�H��	CHAR_HASH RfN��CHAR_FORWARD_SLASH$Rg¢��CHAR_LEFT_SQUARE_BRACKET(Rh"}��CHAR_RIGHT_SQUARE_BRACKET$Rg�*g�CHAR_LEFT_ANGLE_BRACKET$Rg�.HCHAR_RIGHT_ANGLE_BRACKET$Rg��}CHAR_LEFT_CURLY_BRACKET$Rg���WCHAR_RIGHT_CURLY_BRACKET Rf�7��CHAR_QUESTION
+
+
+================================================================================
+REGION: 0x55e00000 (1 fragments)
+================================================================================
+
+--- [TURN] at 0x55e2211c ---
+CHAR_UPPERCASE_CM�8S�CHAR_UPPERCASE_EM�8.�$CHAR_DOTM�8N��CHAR_FORWARD_SLASHM�8VzHCHAR_BACKWARD_SLASHM�8zB`CHAR_VERTICAL_LINEM�8.x�`
+CHAR_COLONM�8�7��CHAR_QUESTION_MARKM�8D�CHAR_UNDERSCOREM�8&�CHAR_LINE_FEEDM�8z���CHAR_CARRIAGE_RETURNM�8���CHAR_TABM�8��r�CHAR_FORM_FEEDM�8�L�CHAR_EXCLAMATION_MARKM�8�H��	CHAR_HASHM�8�Ӧ6
+CHAR_SPACEM�8N��oCHAR_NO_BREAK_SPACEM�8��CHAR_ZERO_WIDTH_NOBREAK_SPACEM�8¢��CHAR_LEFT_SQUARE_BRACKETM�8"}��CHAR_RIGHT_SQUARE_BRACKETM�8�*g�CHAR_LEFT_ANGLE_BRACKETM�8�.HCHAR_RIGHT_ANGLE_BRACKETM�8��}CHAR_LEFT_CURLY_BRACKETM�8�
+

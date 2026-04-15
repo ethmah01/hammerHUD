@@ -1,0 +1,10 @@
+Requirement already satisfied: watchdog in C:\Users\ethma\miniconda3\envs\hud_env\Lib\site-packages (4.0.0)
+Collecting watchdog
+  Downloading watchdog-6.0.0-py3-none-win_amd64.whl.metadata (44 kB)
+Downloading watchdog-6.0.0-py3-none-win_amd64.whl (79 kB)
+Installing collected packages: watchdog
+  Attempting uninstall: watchdog
+    Found existing installation: watchdog 4.0.0
+    Uninstalling watchdog-4.0.0:
+      Successfully uninstalled watchdog-4.0.0
+Successfully installed watchdog-6.0.0
